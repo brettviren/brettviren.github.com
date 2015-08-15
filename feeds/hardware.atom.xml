@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>They Call Me Brett</title><link href="http://brettviren.github.io/" rel="alternate"></link><link href="http://brettviren.github.io/feeds/hardware.atom.xml" rel="self"></link><id>http://brettviren.github.io/</id><updated>2015-08-15T00:00:00-04:00</updated><entry><title>Scope out my new i7 PC</title><link href="http://brettviren.github.io/haiku-i7-system" rel="alternate"></link><updated>2015-08-15T00:00:00-04:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2014-06-28:haiku-i7-system</id><summary type="html">
+&lt;p&gt;
+After a long time using ever aging computers at home I built a new workstation.
+&lt;/p&gt;
+&lt;div class="outline-2" id="outline-container-sec-1"&gt;
+&lt;h2 id="sec-1"&gt;&lt;span class="section-number-2"&gt;1&lt;/span&gt; Specs&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-1"&gt;
+&lt;dl class="org-dl"&gt;
+&lt;dt&gt; OS &lt;/dt&gt;&lt;dd&gt;Ubuntu 15.04
+&lt;/dd&gt;
+&lt;dt&gt; mobo &lt;/dt&gt;&lt;dd&gt;&lt;a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16813157500"&gt;ASRock Z97 Extreme6&lt;/a&gt; (10 SATA)
+&lt;/dd&gt;
+&lt;dt&gt; CPU &lt;/dt&gt;&lt;dd&gt;&lt;a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16819116901"&gt;i7-4770K at 3.5GHz&lt;/a&gt;
+&lt;/dd&gt;
+&lt;dt&gt; RAM &lt;/dt&gt;&lt;dd&gt;&lt;a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16820231560"&gt;2x8GB G.SKILL Ares 240-pin DDR3&lt;/a&gt; (two slots still available)
+&lt;/dd&gt;
+&lt;dt&gt; GPU &lt;/dt&gt;&lt;dd&gt;&lt;a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16814487024"&gt;EVGA 02G-P4-3753-KR GeForce GTX 750 Ti Superclocked&lt;/a&gt;
+&lt;/dd&gt;
+&lt;dt&gt; case &lt;/dt&gt;&lt;dd&gt;&lt;a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16811139022"&gt;Corsair Carbide Air 540 Black&lt;/a&gt;
+&lt;/dd&gt;
+&lt;dt&gt; HDD &lt;/dt&gt;&lt;dd&gt;2x &lt;a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16822148844"&gt;Seagate Barracuda 7200.14 ST3000DM001 3TB&lt;/a&gt;
+&lt;/dd&gt;
+&lt;dt&gt; SDD &lt;/dt&gt;&lt;dd&gt;&lt;a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16820171646"&gt;SanDisk SDSSDP-128G-G25&lt;/a&gt;
+&lt;/dd&gt;
+&lt;dt&gt; PS &lt;/dt&gt;&lt;dd&gt;&lt;a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16817139058"&gt;CORSAIR CSM CS450M 450W&lt;/a&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;
+Total cost was just over 1.1k.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="outline-2" id="outline-container-sec-2"&gt;
+&lt;h2 id="sec-2"&gt;&lt;span class="section-number-2"&gt;2&lt;/span&gt; Some benchmarking&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-2"&gt;
+&lt;/div&gt;&lt;div class="outline-3" id="outline-container-sec-2-1"&gt;
+&lt;h3 id="sec-2-1"&gt;&lt;span class="section-number-3"&gt;2.1&lt;/span&gt; Compare Building ROOT on SSD and HDD&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-2-1"&gt;
+&lt;dl class="org-dl"&gt;
+&lt;dt&gt; SSD &lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;
+&lt;dt&gt; HDD &lt;/dt&gt;&lt;dd&gt;Seagate
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;div class="outline-4" id="outline-container-sec-2-1-1"&gt;
+&lt;h4 id="sec-2-1-1"&gt;&lt;span class="section-number-4"&gt;2.1.1&lt;/span&gt; Download speed.&lt;/h4&gt;
+&lt;div class="outline-text-4" id="text-2-1-1"&gt;
+&lt;p&gt;
+Obviously dominated by network.
+&lt;/p&gt;
+&lt;pre class="example"&gt;
+hdd$ time wget ftp://root.cern.ch/root/root_v5.34.18.source.tar.gz
+real	1m3.200s
+user	0m0.325s
+sys	0m1.368s
+
+ssd$ time wget ftp://root.cern.ch/root/root_v5.34.18.source.tar.gz
+real	1m1.630s
+user	0m0.313s
+sys	0m1.325s
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="outline-4" id="outline-container-sec-2-1-2"&gt;
+&lt;h4 id="sec-2-1-2"&gt;&lt;span class="section-number-4"&gt;2.1.2&lt;/span&gt; Unpack&lt;/h4&gt;
+&lt;div class="outline-text-4" id="text-2-1-2"&gt;
+&lt;pre class="example"&gt;
+hdd$ sync; sync; sync
+hdd$ time (tar -xvf root_v5.34.18.source.tar.gz ; sync)
+real	0m2.664s
+user	0m0.995s
+sys	0m0.318s
+
+
+ssd$ sync; sync; sync
+ssd$ time (tar -xvf root_v5.34.18.source.tar.gz ; sync)
+real	0m1.894s
+user	0m0.982s
+sys	0m0.314s
+&lt;/pre&gt;
+&lt;p&gt;
+Trying this a second time shows these times are probably good to the first decimal place.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="outline-4" id="outline-container-sec-2-1-3"&gt;
+&lt;h4 id="sec-2-1-3"&gt;&lt;span class="section-number-4"&gt;2.1.3&lt;/span&gt; Configure&lt;/h4&gt;
+&lt;div class="outline-text-4" id="text-2-1-3"&gt;
+&lt;p&gt;
+Prepare the OS with the slew of build dependencies:
+&lt;/p&gt;
+&lt;pre class="example"&gt;
+$ sudo apt-get build-dep root-system 
+$ sudo apt-get install cmake
+&lt;/pre&gt;
+&lt;p&gt;
+Configure using CMake:
+&lt;/p&gt;
+&lt;pre class="example"&gt;
+both$ mkdir build 
+both$ cd build
+&lt;/pre&gt;
+&lt;pre class="example"&gt;
+hdd$ sync; sync; sync
+hdd$ time cmake ../root -DCMAKE_INSTALL_PREFIX=../install 
+real	0m3.530s
+user	0m2.707s
+sys	0m0.567s
+
+hdd$ sync; sync; sync
+hdd$ time cmake ../root -DCMAKE_INSTALL_PREFIX=../install 
+real	0m3.284s
+user	0m2.773s
+sys	0m0.590s
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="outline-4" id="outline-container-sec-2-1-4"&gt;
+&lt;h4 id="sec-2-1-4"&gt;&lt;span class="section-number-4"&gt;2.1.4&lt;/span&gt; Build&lt;/h4&gt;
+&lt;div class="outline-text-4" id="text-2-1-4"&gt;
+&lt;p&gt;
+Serial make.  This fails at 71% in &lt;code&gt;libAfterImage&lt;/code&gt;, so just for timing purposes:
+&lt;/p&gt;
+&lt;pre class="example"&gt;
+hdd$ time make
+real	18m19.952s
+user	17m57.504s
+sys	0m53.928s
+
+ssd$ time make
+real	18m19.203s
+user	17m56.957s
+sys	0m53.906s
+&lt;/pre&gt;
+&lt;p&gt;
+Well, that's underwhelming.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="outline-3" id="outline-container-sec-2-2"&gt;
+&lt;h3 id="sec-2-2"&gt;&lt;span class="section-number-3"&gt;2.2&lt;/span&gt; Building ROOT v6&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-2-2"&gt;
+&lt;pre class="example"&gt;
+$ time make -j 8
+real	13m39.561s
+user	97m52.141s
+sys	4m17.270s
+
+$ time make install
+real	0m4.192s
+user	0m2.594s
+sys	0m1.592s
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</summary></entry></feed>

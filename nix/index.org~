@@ -1,0 +1,7 @@
+#+TITLE: Nix packaging
+#+SUBTITLE: Using the Nix package manager for HEP.
+#+CATEGORY: software
+#+TAGS: packaging, unix, hsf
+#+DATE: [2015-08-15 Sat 09:16]
+#+DESCRIPTION: A note investigating the use of the Nix package manager from NixOS for HEP.
+#+SETUPFILE: ~/org-pub/topics/setup.org

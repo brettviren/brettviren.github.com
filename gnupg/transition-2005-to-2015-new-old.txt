@@ -1,0 +1,51 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- -----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+I am transitioning between OpenPGP keys in order to upgrade from a
+1024D to a 4096R key.
+
+Since 2005 I have used this key:
+
+pub   1024D/0x122C47D99D1D282C 2005-12-20
+      Key fingerprint = 04A6 309A D560 D339 D027  2924 122C 47D9 9D1D 282C
+
+Starting now I will begin using this key:
+
+pub   4096R/0x5B0071E097A51B47 2015-07-08
+      Key fingerprint = F37E 5F67 394D 3592 5D37  EE66 5B00 71E0 97A5 1B47
+
+The 0x122C key will continue to be valid for some time but I now will
+start signing email with the 0x5B00 key and would prefer that everyone
+use this new one when encrypting.  If you have trusted the old key I
+request you likewise trust the new one.
+
+This message is signed by my new key followed by my old key.
+
+Brett Viren.
+2015-07-07
+
+- -----BEGIN PGP SIGNATURE-----
+
+iQIcBAEBCgAGBQJVnbbqAAoJEFsAceCXpRtHYukQAMarNdgC2gNZ9W+N9LPJmRfb
+ulB7tP3zDkkHQtnkgm5RsYFuUingQ3KKRsAhgwXL3Nehv4W3aEdqD6VH9Ff7J+1m
+UCp4GxdJSB56D0Jind3iwXZxvQ+0qnoVRm05BcA/dyfQzETb2JwkQ0u7oHzGewPT
+lAiFS/nUhi561yAZPNka4uEFQPo0AmJz2ocBYrevgCjXHESZISZwN0tpYtMj0ROh
+7NstFRifRwSu9n7Dsbz5sljX9xeprPfmYrEyZMJG1C9ic4mesiMiV6rVRBpyNHkn
+ldCDsUG2JoBYjcBKGUbJxPW0l0rs/9kwwN2b4iU4AB28AS+LJErffvEomGhbRDDb
+SyZFMfxqnSo48TVtPvfAyB4q4vj0pChL6SVwkA9orm2ZKIkGj+WTCiVB681RT7HD
+7xcLLKuNJLsAMWiKIjniU8Gh5Gr1rGulYoR9EOJKhMjrzWUpbabDZIkjlZRNJ7B1
+3E7PEBA0QrXPXTGAhaUhuP0jNLmWzhwf+jHHL+WiAyKRCwLj2bnZMO0vNaprL5hP
+3pfBTzFYLQDMjG+Q+MOgTJrbBDZZzvxasuw/8HEPoniw8iW+I9yRu/b6833it8pK
+4urjM97ZGhNm9w0V8SCSD1hwMV5/s9OwP1GR/u2Y66D+L16W/oTS3cXy6EvUxh7p
+HKJ4YCAkSv6BXX66Ykrd
+=fk/F
+- -----END PGP SIGNATURE-----
+-----BEGIN PGP SIGNATURE-----
+
+iEYEARECAAYFAlWdtw8ACgkQEixH2Z0dKCx/aQCgrLS6dszQK5UOYaEp2SQTf6Wq
+b+UAoKesjjGcUUcibU3yJ93fa4SN+Yg8
+=aka6
+-----END PGP SIGNATURE-----
