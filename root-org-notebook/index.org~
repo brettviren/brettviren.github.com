@@ -1,0 +1,15 @@
+#+TITLE: ROOT Notebook with Org
+#+SUBTITLE: Using Emacs org-mode to make ROOT notebooks
+#+CATEGORY: software
+#+TAGS: root,software,org
+#+DATE: [2015-12-28 Mon 16:31]
+#+DESCRIPTION: Emacs Org mode has long provided a "notebook" functionalty.  ROOT's recent announement that it may be used as a Jupyter backend kernel to provide "notebook" functionality is an excuse to show how Org can be used in a similar manner.
+#+SETUPFILE: ~/org-pub/topics/setup.org
+
+This post is brief as the content is provided as an Org file not part of the blog machinery.
+
+- [[file:example-root-org-notebook.org][the Org source]]
+- [[./example-root-org-notebook.pdf][the exported PDF]]
+- [[./example-root-org-notebook.html][the exported HTML]]
+
+

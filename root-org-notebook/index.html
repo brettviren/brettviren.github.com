@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Brett Viren" />
+        <meta name="copyright" content="Brett Viren" />
+
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary">
+
+<meta name="keywords" content="root, software, org, software, " />
+
+<meta property="og:title" content="ROOT Notebook with Org  - Using Emacs org-mode to make ROOT notebooks "/>
+<meta property="og:url" content="http://brettviren.github.io/root-org-notebook" />
+<meta property="og:description" content="1 Introduction In the recent ROOT v6.06 announcement we got the interesting news that one can now run ROOT from an Jupyter (ne&#39; ipython) notebook. The notebook feature forges a connection between a web browser UI and a backend kernel of which ROOT is one. The notebook can be ..." />
+<meta property="og:site_name" content="They Call Me Brett" />
+<meta property="og:article:author" content="Brett Viren" />
+<meta property="og:article:published_time" content="2015-12-28T00:00:00-05:00" />
+<meta property="" content="2015-08-23T00:00:00-04:00" />
+<meta name="twitter:title" content="ROOT Notebook with Org  - Using Emacs org-mode to make ROOT notebooks ">
+<meta name="twitter:description" content="1 Introduction In the recent ROOT v6.06 announcement we got the interesting news that one can now run ROOT from an Jupyter (ne&#39; ipython) notebook. The notebook feature forges a connection between a web browser UI and a backend kernel of which ROOT is one. The notebook can be ...">
+
+        <title>ROOT Notebook with Org  - Using Emacs org-mode to make ROOT notebooks  · They Call Me Brett
+</title>
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="http://brettviren.github.io/theme/css/pygments.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="http://brettviren.github.io/theme/tipuesearch/tipuesearch.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="http://brettviren.github.io/theme/css/elegant.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="http://brettviren.github.io/theme/css/custom.css" media="screen">
+        <link href="http://brettviren.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="They Call Me Brett - Full Atom Feed" />
+    </head>
+    <body>
+        <div id="content-sans-footer">
+        <div class="navbar navbar-static-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="http://brettviren.github.io/"><span class=site-name>They Call Me Brett</span></a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right top-menu">
+                            <li ><a href="http://brettviren.github.io">Home</a></li>
+                            <li ><a href="http://brettviren.github.io/categories.html">Categories</a></li>
+                            <li ><a href="http://brettviren.github.io/tags.html">Tags</a></li>
+                            <li ><a href="http://brettviren.github.io/archives.html">Archives</a></li>
+                            <li><form class="navbar-search" action="http://brettviren.github.io/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span1"></div>
+                <div class="span10">
+<article>
+<div class="row-fluid">
+    <header class="page-header span10 offset2">
+    <h1><a href="http://brettviren.github.io/root-org-notebook"> ROOT Notebook with Org  <small> Using Emacs org-mode to make ROOT notebooks </small>  </a></h1>
+    </header>
+</div>
+
+<div class="row-fluid">
+    <div class="span2 table-of-content">
+        <nav>
+        <h4>Contents</h4>
+        <div class="toc" id="">
+
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgheadline1">1. Introduction</a></li>
+<li><a href="#orgheadline2">2. Graphics format</a></li>
+<li><a href="#orgheadline3">3. The Example</a></li>
+<li><a href="#orgheadline4">4. Exporting</a></li>
+<li><a href="#orgheadline5">5. Summary</a></li>
+</ul>
+</div>
+</div></body></html><html><body><a href="index.org">Org source</a>
+        </nav>
+    </div>
+    <div class="span8 article-content">
+
+            
+            
+<div class="outline-2" id="outline-container-orgheadline1">
+<h2 id="orgheadline1"><span class="section-number-2">1</span> Introduction</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+In the recent <a href="https://root.cern.ch/root-has-its-jupyter-kernel">ROOT v6.06 announcement</a> we got the interesting news that
+one can now run ROOT from an <a href="http://jupyter.org/">Jupyter</a> (ne' <a href="http://ipython.org/">ipython</a>) <i>notebook</i>.  The
+notebook feature forges a connection between a web browser UI and a
+backend <a href="https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages">kernel</a> of which ROOT is one.  The notebook can be written to a
+Markdown document.  This document is strikingly similar to, although
+not as semantically rich as, an Org document.  The document you are
+reading is an attempt to provide a simple, if verbose, ``Org Notebook''
+example.
+</p>
+</div>
+</div>
+<div class="outline-2" id="outline-container-orgheadline2">
+<h2 id="orgheadline2"><span class="section-number-2">2</span> Graphics format</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+Org supports many graphics formats for inline viewing in Emacs or for
+export.  Different export formats ``like'' different graphics formats.
+To support exporting to both PDF (via LaTeX) and HTML in the most
+simple way, we have ROOT produce plots in SVG.  SVG is native for most
+HTML renderers but requires a few tweaks for LaTeX.  ROOT's SVG also
+may have some Unicode characters that cause problems with LaTeX.  In
+this example we deal with these issues by adding the following Org
+headers:
+</p>
+<div class="org-src-container">
+<pre class="src src-org"><span style="font-weight: bold; font-style: italic;">#+LATEX_HEADER: \usepackage[clean,pdf]{svg}</span>
+<span style="font-weight: bold; font-style: italic;">#+LATEX_HEADER: \DeclareUnicodeCharacter{2212}{-}</span>
+<span style="font-weight: bold; font-style: italic;">#+LATEX_HEADER: \setsvg{pretex=\tiny}</span>
+</pre>
+</div>
+<p>
+The <code>svg</code> package we use here will convert SVG to PDF on the fly.
+Take note of the ROOT-specific info in the <a href="http://ctan.uib.no/graphics/svg/svg.pdf"><code>svg</code> package documentation</a>.
+To allow the automatic SVG conversion, <code>pdflatex</code> needs to be told it is
+okay to run external programs.  You can either export the Org document
+to LaTeX (<code>C-c C-e l l</code>) and run <code>pdflatex</code> yourself or you can add
+<code>--shell-escape</code> to the <code>org-latex-pdf-process</code> variable.  You can set
+the variable directly or customize it.  Mine looks like this:
+</p>
+<div class="org-src-container">
+<pre class="src src-elisp">(<span style="font-style: italic;">"pdflatex --shell-escape -interaction nonstopmode -output-directory %o %f"</span> 
+<span style="font-style: italic;">"pdflatex --shell-escape -interaction nonstopmode -output-directory %o %f"</span> 
+<span style="font-style: italic;">"pdflatex --shell-escape -interaction nonstopmode -output-directory %o %f"</span>)
+</pre>
+</div>
+</div>
+</div>
+<div class="outline-2" id="outline-container-orgheadline3">
+<h2 id="orgheadline3"><span class="section-number-2">3</span> The Example</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+Start with some general ROOT plotting setup.  This Python source block
+exports only the code and has no results.  We give it the <code>:session</code>
+argument so that the instance of Python is used for all subsequent
+code blocks.
+</p>
+<div class="org-src-container">
+<pre class="src src-python"><span style="font-weight: bold;">import</span> ROOT
+<span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">set batch so we don't have a TCanvas pop up</span>
+ROOT.gROOT.SetBatch(<span style="font-weight: bold; text-decoration: underline;">True</span>);
+<span style="font-weight: bold; font-style: italic;">c</span> = ROOT.TCanvas(<span style="font-style: italic;">"c"</span>)
+</pre>
+</div>
+<p>
+Next, we make a histogram, fill it, draw it and print the canvas to
+the SVG file.  Shown in the Org source for the document you are
+currently reading, the <code>:session</code> flag is given and thus the canvas
+variable <code>c</code> defined above can be used here.  Other directives tell
+Org that both code and results are exported and that the result of the
+code block is to interpreted as a file name.  
+</p>
+<div class="org-src-container">
+<pre class="src src-python"><span style="font-weight: bold; font-style: italic;">h</span> = ROOT.TH1F(<span style="font-style: italic;">"h"</span>,<span style="font-style: italic;">"ROOT Histo;X;Y"</span>,64,-4,4)
+h.FillRandom(<span style="font-style: italic;">"gaus"</span>,2000);
+h.Draw();
+<span style="font-weight: bold; font-style: italic;">fname</span> = <span style="font-style: italic;">"output_0_1.svg"</span>
+c.Print(fname)
+fname
+</pre>
+</div>
+<div class="figure">
+<p><object data="output_0_1.svg" type="image/svg+xml">
+Sorry, your browser does not support SVG.</object>
+</p>
+</div>
+<p>
+If you are reading this document from its Org sources in Emacs you may
+wish to toggle inline images with <code>C-c C-x C-v</code> to see the result
+above as a figure instead of just the file name.
+</p>
+<p>
+Next, we do some further operation on the histogram defined above and
+draw it again to a second file.  Note the increase in statistics.
+</p>
+<div class="org-src-container">
+<pre class="src src-python">h.FillRandom(<span style="font-style: italic;">"gaus"</span>)
+h.Draw()
+<span style="font-weight: bold; font-style: italic;">fname</span> = <span style="font-style: italic;">"output_0_2.svg"</span>
+c.Print(fname)
+fname
+</pre>
+</div>
+<div class="figure">
+<p><object data="output_0_2.svg" type="image/svg+xml">
+Sorry, your browser does not support SVG.</object>
+</p>
+</div>
+</div>
+</div>
+<div class="outline-2" id="outline-container-orgheadline4">
+<h2 id="orgheadline4"><span class="section-number-2">4</span> Exporting</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+You can export this Org file to PDF via LaTeX or to HTML with just a few key strokes.  You can further have the result load into a PDF or HTML viewer.  Try:
+</p>
+<dl class="org-dl">
+<dt><code>C-c C-e l l</code></dt><dd>export to LaTeX</dd>
+<dt><code>C-c C-e l p</code></dt><dd>as above plus run <code>pfdlatex</code> to make a PDF</dd>
+<dt><code>C-c C-e l o</code></dt><dd>as above plus open the PDF file in a viewer</dd>
+<dt><code>C-c C-e h h</code></dt><dd>export to HTML</dd>
+<dt><code>C-c C-e h o</code></dt><dd>as above plus open the HTML file in a browser</dd>
+</dl>
+</div>
+</div>
+<div class="outline-2" id="outline-container-orgheadline5">
+<h2 id="orgheadline5"><span class="section-number-2">5</span> Summary</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+The addition of ROOT as a backend kernel for Jupyter is a nice
+development.  Through Python source blocks and ROOT's PyROOT binding
+one has for a while had ``Org Notebooks''.  For those that prefer to
+work inside Emacs and especially with Org markup, this provides a full
+featured alternative.  With some nominal setup, the Org file may be
+exported to both LaTeX/PDF and HTML using SVG graphics.
+</p>
+</div>
+</div>
+
+            
+            
+            <hr/>
+        </div>
+        <section>
+        <div class="span2" style="float:right;font-size:0.9em;">
+            <h4>Published</h4>
+            <time pubdate="pubdate" datetime="2015-12-28T00:00:00-05:00">Dec 28, 2015</time>
+
+<h4>Last Updated</h4>
+<time datetime="2015-08-23T00:00:00-04:00">Aug 23, 2015</time>
+
+            <h4>Category</h4>
+            <a class="category-link" href="http://brettviren.github.io/categories.html#software-ref">software</a>
+            <h4>Tags</h4>
+            <ul class="list-of-tags tags-in-article">
+                <li><a href="http://brettviren.github.io/tags.html#org-ref">org
+                    <span>2</span>
+</a></li>
+                <li><a href="http://brettviren.github.io/tags.html#root-ref">root
+                    <span>1</span>
+</a></li>
+                <li><a href="http://brettviren.github.io/tags.html#software-ref">software
+                    <span>1</span>
+</a></li>
+            </ul>
+<h4>Contact</h4>
+    <a href="https://github.com/brettviren" title="GitHub" class="sidebar-social-links" target="_blank">
+    <i class="fa fa-github sidebar-social-links"></i></a>
+    <a href="mailto:brett.viren@gmail.com" title="Personal Email" class="sidebar-social-links" target="_blank">
+    <i class="fa fa-envelope sidebar-social-links"></i></a>
+    <a href="mailto:bv@bnl.gov" title="Work Email" class="sidebar-social-links" target="_blank">
+    <i class="fa fa-envelope sidebar-social-links"></i></a>
+        </div>
+        </section>
+</div>
+</article>
+                </div>
+                <div class="span1"></div>
+            </div>
+        </div>
+        <div id="push"></div>
+    </div>
+<footer>
+<div id="footer">
+    <ul class="footer-content">
+        <li class="elegant-power">Written using <a href="https://www.gnu.org/software/emacs/">Emacs</a> and <a href="http://orgmode.org/">Org</a>.  Generated with <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a> and <a href="https://github.com/brettviren/orgonpy">OrgOnPy</a>.  Styled using <a href="http://oncrashreboot.com/pelican-elegant" title="Theme Elegant Home Page">Elegant theme</a> by <a href="http://oncrashreboot.com" title="Talha Mansoor Home Page">Talha Mansoor</a>.</li>
+    </ul>
+</div>
+</footer>            <script src="http://code.jquery.com/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
+
+    
+    </body>
+    <!-- Theme: Elegant built for Pelican
+    License : http://oncrashreboot.com/pelican-elegant -->
+</html>

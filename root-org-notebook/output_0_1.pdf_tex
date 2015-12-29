@@ -1,0 +1,102 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'output_0_1.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{453.94321289bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.67844432)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{output_0_1.pdf}}%
+    \put(0.87367401,0.61097509){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{h}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{output_0_1.pdf}}%
+    \put(0.78897975,0.58513574){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Entries}}}%
+    \put(0.91961111,0.58513574){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{2000}}}%
+    \put(0.78897975,0.55929655){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Mean}}}%
+    \put(0.89664256,0.55929655){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0.01733}}}%
+    \put(0.8851592,0.55929655){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{−}}}%
+    \put(0.87941747,0.55929655){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.78897975,0.53202178){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Std Dev}}}%
+    \put(0.90238424,0.53202178){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0.9863}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{output_0_1.pdf}}%
+    \put(0.8851592,0.02097882){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{X}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{output_0_1.pdf}}%
+    \put(0.0999318,0.04681815){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{4}}}%
+    \put(0.08701212,0.04681815){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{−}}}%
+    \put(0.20041802,0.04681815){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{3}}}%
+    \put(0.18749834,0.04681815){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{−}}}%
+    \put(0.2994683,0.04681815){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{2}}}%
+    \put(0.28654861,0.04681815){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{−}}}%
+    \put(0.4013894,0.04681815){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.38846974,0.04681815){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{−}}}%
+    \put(0.49469799,0.04681815){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.59518459,0.04681815){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.69423483,0.04681815){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{2}}}%
+    \put(0.79328512,0.04681815){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{3}}}%
+    \put(0.89377172,0.04681815){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{4}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{output_0_1.pdf}}%
+    \put(0.0539953,0.59374897){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Y}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{output_0_1.pdf}}%
+    \put(0.08414109,0.06117241){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.07122142,0.14730298){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{20}}}%
+    \put(0.07122142,0.2334336){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{40}}}%
+    \put(0.07122142,0.31956595){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{60}}}%
+    \put(0.07122142,0.40426024){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{80}}}%
+    \put(0.05973734,0.4903926){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{100}}}%
+    \put(0.05973734,0.57652267){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{120}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{output_0_1.pdf}}%
+    \put(0.87367401,0.61097509){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{h}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{output_0_1.pdf}}%
+    \put(0.78897975,0.58513574){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Entries}}}%
+    \put(0.91961111,0.58513574){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{2000}}}%
+    \put(0.78897975,0.55929655){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Mean}}}%
+    \put(0.89664256,0.55929655){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0.01733}}}%
+    \put(0.8851592,0.55929655){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{−}}}%
+    \put(0.87941747,0.55929655){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.78897975,0.53202178){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Std Dev}}}%
+    \put(0.90238424,0.53202178){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0.9863}}}%
+    \put(0.41861624,0.64542751){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ROOT Histo}}}%
+  \end{picture}%
+\endgroup%

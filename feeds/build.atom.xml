@@ -9,33 +9,29 @@ At some point I came across &lt;a href="http://www.scons.org/"&gt;&lt;code&gt;sc
 &lt;p&gt;
 More recently I came across &lt;a href="https://code.google.com/p/waf/"&gt;&lt;code&gt;waf&lt;/code&gt;&lt;/a&gt; and found it just about exactly what I was looking for.  It uses Python, it can be extended easily (it forms the basis of my meta-build system &lt;a href="https://github.com/brettviren/worch"&gt;worch&lt;/a&gt;).  It has good, if not great &lt;a href="http://docs.waf.googlecode.com/git/"&gt;documentation&lt;/a&gt;.  This latter issue is what this topic is meant to address.  It is written to collect my understanding as a user of waf and hopefully fill a needed gap.  It tries to provide concrete examples of how to do various things and refer to the official documentation wherever possible.
 &lt;/p&gt;
-&lt;div class="outline-2" id="outline-container-sec-1"&gt;
-&lt;h2 id="sec-1"&gt;&lt;span class="section-number-2"&gt;1&lt;/span&gt; Gestalt of waf&lt;/h2&gt;
+&lt;div class="outline-2" id="outline-container-orgheadline1"&gt;
+&lt;h2 id="orgheadline1"&gt;&lt;span class="section-number-2"&gt;1&lt;/span&gt; Gestalt of waf&lt;/h2&gt;
 &lt;div class="outline-text-2" id="text-1"&gt;
 &lt;p&gt;
 Waf is like &lt;code&gt;make&lt;/code&gt; but with a &lt;code&gt;Makefile&lt;/code&gt; called &lt;code&gt;wscript&lt;/code&gt; and written in Python.  Waf is unlike in several ways:
 &lt;/p&gt;
 &lt;ul class="org-ul"&gt;
-&lt;li&gt;waf can be &lt;a href="http://docs.waf.googlecode.com/git/book_17/single.html#_writing_re_usable_waf_tools"&gt;extended&lt;/a&gt; by providing Python modules loaded through &lt;code&gt;wscript&lt;/code&gt; files
-&lt;/li&gt;
-&lt;li&gt;waf can be &lt;a href="http://docs.waf.googlecode.com/git/book_17/single.html#_obtaining_the_waf_file"&gt;bundled&lt;/a&gt; along with extensions to provide a single executable that performs specific tasks
-&lt;/li&gt;
-&lt;li&gt;waf is cross-platform, no compilation needed and can be included as a single file along with the project it builds
-&lt;/li&gt;
-&lt;li&gt;waf is parallel by default, it will run tasks as parallel as possible constrained by available CPU, dependencies or any limits imposed by the user
-&lt;/li&gt;
+&lt;li&gt;waf can be &lt;a href="http://docs.waf.googlecode.com/git/book_17/single.html#_writing_re_usable_waf_tools"&gt;extended&lt;/a&gt; by providing Python modules loaded through &lt;code&gt;wscript&lt;/code&gt; files&lt;/li&gt;
+&lt;li&gt;waf can be &lt;a href="http://docs.waf.googlecode.com/git/book_17/single.html#_obtaining_the_waf_file"&gt;bundled&lt;/a&gt; along with extensions to provide a single executable that performs specific tasks&lt;/li&gt;
+&lt;li&gt;waf is cross-platform, no compilation needed and can be included as a single file along with the project it builds&lt;/li&gt;
+&lt;li&gt;waf is parallel by default, it will run tasks as parallel as possible constrained by available CPU, dependencies or any limits imposed by the user&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="outline-2" id="outline-container-sec-2"&gt;
-&lt;h2 id="sec-2"&gt;&lt;span class="section-number-2"&gt;2&lt;/span&gt; The waf configuration file&lt;/h2&gt;
+&lt;div class="outline-2" id="outline-container-orgheadline4"&gt;
+&lt;h2 id="orgheadline4"&gt;&lt;span class="section-number-2"&gt;2&lt;/span&gt; The waf configuration file&lt;/h2&gt;
 &lt;div class="outline-text-2" id="text-2"&gt;
 &lt;p&gt;
 Waf expects to find a file called &lt;code&gt;wscript&lt;/code&gt; in the current directory.  
 &lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="outline-3" id="outline-container-sec-2-1"&gt;
-&lt;h3 id="sec-2-1"&gt;&lt;span class="section-number-3"&gt;2.1&lt;/span&gt; Commands&lt;/h3&gt;
+&lt;div class="outline-3" id="outline-container-orgheadline2"&gt;
+&lt;h3 id="orgheadline2"&gt;&lt;span class="section-number-3"&gt;2.1&lt;/span&gt; Commands&lt;/h3&gt;
 &lt;div class="outline-text-3" id="text-2-1"&gt;
 &lt;p&gt;
 Functions in this file become exposed through waf as command line commands.  For example:
@@ -59,13 +55,13 @@ waf chirp
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="outline-3" id="outline-container-sec-2-2"&gt;
-&lt;h3 id="sec-2-2"&gt;&lt;span class="section-number-3"&gt;2.2&lt;/span&gt; Context object&lt;/h3&gt;
+&lt;div class="outline-3" id="outline-container-orgheadline3"&gt;
+&lt;h3 id="orgheadline3"&gt;&lt;span class="section-number-3"&gt;2.2&lt;/span&gt; Context object&lt;/h3&gt;
 &lt;div class="outline-text-3" id="text-2-2"&gt;
 &lt;p&gt;
 A waf command function is given a context object.  This context object may be specialized depending on the function called.  The figure from the  &lt;a href="http://docs.waf.googlecode.com/git/apidocs_17/Context.html"&gt;context reference docs&lt;/a&gt; shows the inheritance:
 &lt;/p&gt;
-&lt;div class="figure" id="fig:context-inheritance"&gt;
+&lt;div class="figure" id="orgparagraph1"&gt;
 &lt;p&gt;&lt;img alt="context-inheritance.png" src="./context-inheritance.png"/&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;span class="figure-number"&gt;Figure 1:&lt;/span&gt; Inheritance of context classes.  Note, the arrows are reversed from the sense they would be drawn in a UML inheritance diagram.&lt;/p&gt;
@@ -73,15 +69,15 @@ A waf command function is given a context object.  This context object may be sp
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="outline-2" id="outline-container-sec-3"&gt;
-&lt;h2 id="sec-3"&gt;&lt;span class="section-number-2"&gt;3&lt;/span&gt; Predefined commands&lt;/h2&gt;
+&lt;div class="outline-2" id="outline-container-orgheadline8"&gt;
+&lt;h2 id="orgheadline8"&gt;&lt;span class="section-number-2"&gt;3&lt;/span&gt; Predefined commands&lt;/h2&gt;
 &lt;div class="outline-text-2" id="text-3"&gt;
 &lt;p&gt;
 Certain commands are reserved and treated special by waf.
 &lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="outline-3" id="outline-container-sec-3-1"&gt;
-&lt;h3 id="sec-3-1"&gt;&lt;span class="section-number-3"&gt;3.1&lt;/span&gt; Options&lt;/h3&gt;
+&lt;div class="outline-3" id="outline-container-orgheadline5"&gt;
+&lt;h3 id="orgheadline5"&gt;&lt;span class="section-number-3"&gt;3.1&lt;/span&gt; Options&lt;/h3&gt;
 &lt;div class="outline-text-3" id="text-3-1"&gt;
 &lt;p&gt;
 The &lt;code&gt;options(ctx)&lt;/code&gt; function will be passed an &lt;a href="http://docs.waf.googlecode.com/git/apidocs_17/Options.html"&gt;options&lt;/a&gt; context object.  This function can be used to define command line options that waf will recognize on behalf of the project.
@@ -102,8 +98,8 @@ waf --extra=&lt;span style="font-style: italic;"&gt;'Just a bit of extra stuff'&
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="outline-3" id="outline-container-sec-3-2"&gt;
-&lt;h3 id="sec-3-2"&gt;&lt;span class="section-number-3"&gt;3.2&lt;/span&gt; Configure&lt;/h3&gt;
+&lt;div class="outline-3" id="outline-container-orgheadline6"&gt;
+&lt;h3 id="orgheadline6"&gt;&lt;span class="section-number-3"&gt;3.2&lt;/span&gt; Configure&lt;/h3&gt;
 &lt;div class="outline-text-3" id="text-3-2"&gt;
 &lt;p&gt;
 The &lt;code&gt;configure(cfg)&lt;/code&gt; function is passed a &lt;a href="http://docs.waf.googlecode.com/git/apidocs_17/Configure.html"&gt;configuration&lt;/a&gt; context object.  This function can be used to persist any information between other command calls.  On possible use is to make command line options persisted.
@@ -139,8 +135,8 @@ Waf: Leaving directory `/home/bv/org-pub/topics/waf/examples/configure/build'
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="outline-3" id="outline-container-sec-3-3"&gt;
-&lt;h3 id="sec-3-3"&gt;&lt;span class="section-number-3"&gt;3.3&lt;/span&gt; Build&lt;/h3&gt;
+&lt;div class="outline-3" id="outline-container-orgheadline7"&gt;
+&lt;h3 id="orgheadline7"&gt;&lt;span class="section-number-3"&gt;3.3&lt;/span&gt; Build&lt;/h3&gt;
 &lt;div class="outline-text-3" id="text-3-3"&gt;
 &lt;p&gt;
 In the &lt;code&gt;build(bld)&lt;/code&gt; function is where one describes to waf how to build everything.    It is passed a &lt;a href="http://docs.waf.googlecode.com/git/apidocs_17/Build.html"&gt;build&lt;/a&gt; context object.  There are several ways to do this but a simple and powerful way is to declare a task generator by calling &lt;code&gt;bld&lt;/code&gt; as a callable object.

@@ -14,13 +14,13 @@
 
 <meta property="og:title" content="Scope out my new i7 PC "/>
 <meta property="og:url" content="http://brettviren.github.io/haiku-i7-system" />
-<meta property="og:description" content="After a long time using ever aging computers at home I built a new workstation. 1 Specs OS Ubuntu 15.04 mobo ASRock Z97 Extreme6 (10 SATA) CPU i7-4770K at 3.5GHz RAM 2x8GB G.SKILL Ares 240-pin DDR3 (two slots still available) GPU EVGA 02G-P4-3753-KR GeForce GTX 750 Ti ..." />
+<meta property="og:description" content="After a long time using ever aging computers at home I built a new workstation. 1 Specs OSUbuntu 15.04 moboASRock Z97 Extreme6 (10 SATA) CPUi7-4770K at 3.5GHz RAM2x8GB G.SKILL Ares 240-pin DDR3 (two slots still available) GPUEVGA 02G-P4-3753-KR GeForce GTX 750 Ti ..." />
 <meta property="og:site_name" content="They Call Me Brett" />
 <meta property="og:article:author" content="Brett Viren" />
 <meta property="og:article:published_time" content="2014-06-28T00:00:00-04:00" />
-<meta property="" content="2015-08-15T00:00:00-04:00" />
+<meta property="" content="2015-08-23T00:00:00-04:00" />
 <meta name="twitter:title" content="Scope out my new i7 PC ">
-<meta name="twitter:description" content="After a long time using ever aging computers at home I built a new workstation. 1 Specs OS Ubuntu 15.04 mobo ASRock Z97 Extreme6 (10 SATA) CPU i7-4770K at 3.5GHz RAM 2x8GB G.SKILL Ares 240-pin DDR3 (two slots still available) GPU EVGA 02G-P4-3753-KR GeForce GTX 750 Ti ...">
+<meta name="twitter:description" content="After a long time using ever aging computers at home I built a new workstation. 1 Specs OSUbuntu 15.04 moboASRock Z97 Extreme6 (10 SATA) CPUi7-4770K at 3.5GHz RAM2x8GB G.SKILL Ares 240-pin DDR3 (two slots still available) GPUEVGA 02G-P4-3753-KR GeForce GTX 750 Ti ...">
 
         <title>Scope out my new i7 PC  · They Call Me Brett
 </title>
@@ -74,18 +74,18 @@
 
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#sec-1">1. Specs</a></li>
-<li><a href="#sec-2">2. Some benchmarking</a>
+<li><a href="#orgheadline1">1. Specs</a></li>
+<li><a href="#orgheadline8">2. Some benchmarking</a>
 <ul>
-<li><a href="#sec-2-1">2.1. Compare Building ROOT on SSD and HDD</a>
+<li><a href="#orgheadline6">2.1. Compare Building ROOT on SSD and HDD</a>
 <ul>
-<li><a href="#sec-2-1-1">2.1.1. Download speed.</a></li>
-<li><a href="#sec-2-1-2">2.1.2. Unpack</a></li>
-<li><a href="#sec-2-1-3">2.1.3. Configure</a></li>
-<li><a href="#sec-2-1-4">2.1.4. Build</a></li>
+<li><a href="#orgheadline2">2.1.1. Download speed.</a></li>
+<li><a href="#orgheadline3">2.1.2. Unpack</a></li>
+<li><a href="#orgheadline4">2.1.3. Configure</a></li>
+<li><a href="#orgheadline5">2.1.4. Build</a></li>
 </ul>
 </li>
-<li><a href="#sec-2-2">2.2. Building ROOT v6</a></li>
+<li><a href="#orgheadline7">2.2. Building ROOT v6</a></li>
 </ul>
 </li>
 </ul>
@@ -100,48 +100,38 @@
 <p>
 After a long time using ever aging computers at home I built a new workstation.
 </p>
-<div class="outline-2" id="outline-container-sec-1">
-<h2 id="sec-1"><span class="section-number-2">1</span> Specs</h2>
+<div class="outline-2" id="outline-container-orgheadline1">
+<h2 id="orgheadline1"><span class="section-number-2">1</span> Specs</h2>
 <div class="outline-text-2" id="text-1">
 <dl class="org-dl">
-<dt> OS </dt><dd>Ubuntu 15.04
-</dd>
-<dt> mobo </dt><dd><a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16813157500">ASRock Z97 Extreme6</a> (10 SATA)
-</dd>
-<dt> CPU </dt><dd><a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16819116901">i7-4770K at 3.5GHz</a>
-</dd>
-<dt> RAM </dt><dd><a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16820231560">2x8GB G.SKILL Ares 240-pin DDR3</a> (two slots still available)
-</dd>
-<dt> GPU </dt><dd><a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16814487024">EVGA 02G-P4-3753-KR GeForce GTX 750 Ti Superclocked</a>
-</dd>
-<dt> case </dt><dd><a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16811139022">Corsair Carbide Air 540 Black</a>
-</dd>
-<dt> HDD </dt><dd>2x <a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16822148844">Seagate Barracuda 7200.14 ST3000DM001 3TB</a>
-</dd>
-<dt> SDD </dt><dd><a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16820171646">SanDisk SDSSDP-128G-G25</a>
-</dd>
-<dt> PS </dt><dd><a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16817139058">CORSAIR CSM CS450M 450W</a>
-</dd>
+<dt>OS</dt><dd>Ubuntu 15.04</dd>
+<dt>mobo</dt><dd><a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16813157500">ASRock Z97 Extreme6</a> (10 SATA)</dd>
+<dt>CPU</dt><dd><a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16819116901">i7-4770K at 3.5GHz</a></dd>
+<dt>RAM</dt><dd><a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16820231560">2x8GB G.SKILL Ares 240-pin DDR3</a> (two slots still available)</dd>
+<dt>GPU</dt><dd><a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16814487024">EVGA 02G-P4-3753-KR GeForce GTX 750 Ti Superclocked</a></dd>
+<dt>case</dt><dd><a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16811139022">Corsair Carbide Air 540 Black</a></dd>
+<dt>HDD</dt><dd>2x <a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16822148844">Seagate Barracuda 7200.14 ST3000DM001 3TB</a></dd>
+<dt>SDD</dt><dd><a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16820171646">SanDisk SDSSDP-128G-G25</a></dd>
+<dt>PS</dt><dd><a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16817139058">CORSAIR CSM CS450M 450W</a></dd>
 </dl>
 <p>
 Total cost was just over 1.1k.
 </p>
 </div>
 </div>
-<div class="outline-2" id="outline-container-sec-2">
-<h2 id="sec-2"><span class="section-number-2">2</span> Some benchmarking</h2>
+<div class="outline-2" id="outline-container-orgheadline8">
+<h2 id="orgheadline8"><span class="section-number-2">2</span> Some benchmarking</h2>
 <div class="outline-text-2" id="text-2">
-</div><div class="outline-3" id="outline-container-sec-2-1">
-<h3 id="sec-2-1"><span class="section-number-3">2.1</span> Compare Building ROOT on SSD and HDD</h3>
+</div><div class="outline-3" id="outline-container-orgheadline6">
+<h3 id="orgheadline6"><span class="section-number-3">2.1</span> Compare Building ROOT on SSD and HDD</h3>
 <div class="outline-text-3" id="text-2-1">
 <dl class="org-dl">
-<dt> SSD </dt><dd></dd>
-<dt> HDD </dt><dd>Seagate
-</dd>
+<dt>SSD</dt><dd></dd>
+<dt>HDD</dt><dd>Seagate</dd>
 </dl>
 </div>
-<div class="outline-4" id="outline-container-sec-2-1-1">
-<h4 id="sec-2-1-1"><span class="section-number-4">2.1.1</span> Download speed.</h4>
+<div class="outline-4" id="outline-container-orgheadline2">
+<h4 id="orgheadline2"><span class="section-number-4">2.1.1</span> Download speed.</h4>
 <div class="outline-text-4" id="text-2-1-1">
 <p>
 Obviously dominated by network.
@@ -159,8 +149,8 @@ sys	0m1.325s
 </pre>
 </div>
 </div>
-<div class="outline-4" id="outline-container-sec-2-1-2">
-<h4 id="sec-2-1-2"><span class="section-number-4">2.1.2</span> Unpack</h4>
+<div class="outline-4" id="outline-container-orgheadline3">
+<h4 id="orgheadline3"><span class="section-number-4">2.1.2</span> Unpack</h4>
 <div class="outline-text-4" id="text-2-1-2">
 <pre class="example">
 hdd$ sync; sync; sync
@@ -181,8 +171,8 @@ Trying this a second time shows these times are probably good to the first decim
 </p>
 </div>
 </div>
-<div class="outline-4" id="outline-container-sec-2-1-3">
-<h4 id="sec-2-1-3"><span class="section-number-4">2.1.3</span> Configure</h4>
+<div class="outline-4" id="outline-container-orgheadline4">
+<h4 id="orgheadline4"><span class="section-number-4">2.1.3</span> Configure</h4>
 <div class="outline-text-4" id="text-2-1-3">
 <p>
 Prepare the OS with the slew of build dependencies:
@@ -213,8 +203,8 @@ sys	0m0.590s
 </pre>
 </div>
 </div>
-<div class="outline-4" id="outline-container-sec-2-1-4">
-<h4 id="sec-2-1-4"><span class="section-number-4">2.1.4</span> Build</h4>
+<div class="outline-4" id="outline-container-orgheadline5">
+<h4 id="orgheadline5"><span class="section-number-4">2.1.4</span> Build</h4>
 <div class="outline-text-4" id="text-2-1-4">
 <p>
 Serial make.  This fails at 71% in <code>libAfterImage</code>, so just for timing purposes:
@@ -236,8 +226,8 @@ Well, that's underwhelming.
 </div>
 </div>
 </div>
-<div class="outline-3" id="outline-container-sec-2-2">
-<h3 id="sec-2-2"><span class="section-number-3">2.2</span> Building ROOT v6</h3>
+<div class="outline-3" id="outline-container-orgheadline7">
+<h3 id="orgheadline7"><span class="section-number-3">2.2</span> Building ROOT v6</h3>
 <div class="outline-text-3" id="text-2-2">
 <pre class="example">
 $ time make -j 8
@@ -264,7 +254,7 @@ sys	0m1.592s
             <time pubdate="pubdate" datetime="2014-06-28T00:00:00-04:00">Jun 28, 2014</time>
 
 <h4>Last Updated</h4>
-<time datetime="2015-08-15T00:00:00-04:00">Aug 15, 2015</time>
+<time datetime="2015-08-23T00:00:00-04:00">Aug 23, 2015</time>
 
             <h4>Category</h4>
             <a class="category-link" href="http://brettviren.github.io/categories.html#hardware-ref">hardware</a>

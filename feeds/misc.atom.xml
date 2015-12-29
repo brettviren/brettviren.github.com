@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>They Call Me Brett</title><link href="http://brettviren.github.io/" rel="alternate"></link><link href="http://brettviren.github.io/feeds/misc.atom.xml" rel="self"></link><id>http://brettviren.github.io/</id><updated>2015-08-15T00:00:00-04:00</updated><entry><title></title><link href="http://brettviren.github.io/foo" rel="alternate"></link><updated>2015-08-15T00:00:00-04:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-08-15:foo</id><summary type="html">
-&lt;div class="outline-2" id="outline-container-sec-1"&gt;
-&lt;h2 id="sec-1"&gt;&lt;span class="section-number-2"&gt;1&lt;/span&gt; A real heading&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>They Call Me Brett</title><link href="http://brettviren.github.io/" rel="alternate"></link><link href="http://brettviren.github.io/feeds/misc.atom.xml" rel="self"></link><id>http://brettviren.github.io/</id><updated>2015-08-23T00:00:00-04:00</updated><entry><title></title><link href="http://brettviren.github.io/foo" rel="alternate"></link><updated>2015-08-23T00:00:00-04:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-08-23:foo</id><summary type="html">
+&lt;div class="outline-2" id="outline-container-orgheadline3"&gt;
+&lt;h2 id="orgheadline3"&gt;&lt;span class="section-number-2"&gt;1&lt;/span&gt; A real heading&lt;/h2&gt;
 &lt;div class="outline-text-2" id="text-1"&gt;
 &lt;pre class="example"&gt;
 just some text
@@ -13,8 +13,8 @@ example
 some more text and
 &lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="outline-4" id="outline-container-sec-1-0-1"&gt;
-&lt;h4 id="sec-1-0-1"&gt;&lt;span class="section-number-4"&gt;1.0.1&lt;/span&gt; this gets interpreted as a heading&lt;/h4&gt;
+&lt;div class="outline-4" id="outline-container-orgheadline1"&gt;
+&lt;h4 id="orgheadline1"&gt;&lt;span class="section-number-4"&gt;1.0.1&lt;/span&gt; this gets interpreted as a heading&lt;/h4&gt;
 &lt;div class="outline-text-4" id="text-1-0-1"&gt;
 &lt;p&gt;
 which it shouldn't
@@ -22,8 +22,8 @@ which it shouldn't
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="outline-3" id="outline-container-sec-1-1"&gt;
-&lt;h3 id="sec-1-1"&gt;&lt;span class="section-number-3"&gt;1.1&lt;/span&gt; A tagged heading   &lt;span class="tag"&gt;&lt;span class="sometag"&gt;sometag&lt;/span&gt; &lt;span class="someothertag"&gt;someothertag&lt;/span&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;div class="outline-3" id="outline-container-orgheadline2"&gt;
+&lt;h3 id="orgheadline2"&gt;&lt;span class="section-number-3"&gt;1.1&lt;/span&gt; A tagged heading   &lt;span class="tag"&gt;&lt;span class="sometag"&gt;sometag&lt;/span&gt; &lt;span class="someothertag"&gt;someothertag&lt;/span&gt;&lt;/span&gt;&lt;/h3&gt;
 &lt;div class="outline-text-3" id="text-1-1"&gt;
 &lt;p&gt;
 blah blah
@@ -31,244 +31,605 @@ blah blah
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="outline-2" id="outline-container-sec-2"&gt;
-&lt;h2 id="sec-2"&gt;&lt;span class="section-number-2"&gt;2&lt;/span&gt; This is still needing work   &lt;span class="tag"&gt;&lt;span class="todo"&gt;todo&lt;/span&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;div class="outline-2" id="outline-container-orgheadline4"&gt;
+&lt;h2 id="orgheadline4"&gt;&lt;span class="section-number-2"&gt;2&lt;/span&gt; This is still needing work   &lt;span class="tag"&gt;&lt;span class="todo"&gt;todo&lt;/span&gt;&lt;/span&gt;&lt;/h2&gt;
 &lt;div class="outline-text-2" id="text-2"&gt;
 &lt;p&gt;
 You shouldn't see me.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</summary></entry><entry><title></title><link href="http://brettviren.github.io/pelican-themes" rel="alternate"></link><updated>2015-08-15T00:00:00-04:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-08-15:pelican-themes</id><summary type="html">
-&lt;div class="outline-2" id="outline-container-sec-1"&gt;
-&lt;h2 id="sec-1"&gt;&lt;span class="section-number-2"&gt;1&lt;/span&gt; Pelican Themes&lt;/h2&gt;
+</summary></entry><entry><title></title><link href="http://brettviren.github.io/pelican-themes" rel="alternate"></link><updated>2015-08-23T00:00:00-04:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-08-23:pelican-themes</id><summary type="html">
+&lt;div class="outline-2" id="outline-container-orgheadline1"&gt;
+&lt;h2 id="orgheadline1"&gt;&lt;span class="section-number-2"&gt;1&lt;/span&gt; Pelican Themes&lt;/h2&gt;
 &lt;div class="outline-text-2" id="text-1"&gt;
 &lt;p&gt;
 The desired themes should satisfy these criteria
 &lt;/p&gt;
 &lt;ul class="org-ul"&gt;
-&lt;li&gt;looks "good", if it fails this it gets a zero
-&lt;/li&gt;
-&lt;li&gt;good difference between code and text, distinct but not jarring
-&lt;/li&gt;
-&lt;li&gt;indices made up of "teasers" of articles, (this can probably be easily tweaked)
-&lt;/li&gt;
-&lt;li&gt;large images should not be cut out (see GraphViz diagram in "desk" for example)
-&lt;/li&gt;
-&lt;li&gt;prominently displays list of categories links
-&lt;/li&gt;
-&lt;li&gt;prominently displays list of archives link
-&lt;/li&gt;
-&lt;li&gt;prominently displays list of tags link
-&lt;/li&gt;
-&lt;li&gt;must wrap long code lines
-&lt;/li&gt;
-&lt;li&gt;must gracefully scale
-&lt;/li&gt;
+&lt;li&gt;looks "good", if it fails this it gets a zero&lt;/li&gt;
+&lt;li&gt;good difference between code and text, distinct but not jarring&lt;/li&gt;
+&lt;li&gt;indices made up of "teasers" of articles, (this can probably be easily tweaked)&lt;/li&gt;
+&lt;li&gt;large images should not be cut out (see GraphViz diagram in "desk" for example)&lt;/li&gt;
+&lt;li&gt;prominently displays list of categories links&lt;/li&gt;
+&lt;li&gt;prominently displays list of archives link&lt;/li&gt;
+&lt;li&gt;prominently displays list of tags link&lt;/li&gt;
+&lt;li&gt;must wrap long code lines&lt;/li&gt;
+&lt;li&gt;must gracefully scale&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
 Testing
 &lt;/p&gt;
 &lt;ul class="org-ul"&gt;
-&lt;li&gt;check for screen shots in theme dir.  They are not often up-to-date at all, but if horrible, then pass.
-&lt;/li&gt;
-&lt;li&gt;generate with &lt;code&gt;rm -rf output/*; pelican content -t ~/org-pub/pelican/pelican-themes/THEME&lt;/code&gt;
-&lt;/li&gt;
-&lt;li&gt;reload &lt;a href="http://127.0.0.1:8000/"&gt;http://127.0.0.1:8000/&lt;/a&gt;.  Must hit reload to get all CSS refreshed.
-&lt;/li&gt;
+&lt;li&gt;check for screen shots in theme dir.  They are not often up-to-date at all, but if horrible, then pass.&lt;/li&gt;
+&lt;li&gt;generate with &lt;code&gt;rm -rf output/*; pelican content -t ~/org-pub/pelican/pelican-themes/THEME&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;reload &lt;a href="http://127.0.0.1:8000/"&gt;http://127.0.0.1:8000/&lt;/a&gt;.  Must hit reload to get all CSS refreshed.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
 Selected:
 &lt;/p&gt;
 &lt;dl class="org-dl"&gt;
-&lt;dt&gt; elegant &lt;/dt&gt;&lt;dd&gt;Title-only indices, interesting category browser (super-script number counts the entries, kind of weird), drop down menu.  good but maybe too cutsie, tag searching, general search input but it is broken (no search.html).  Scaling to mobile.  dump scaling on far zoom out
-&lt;/dd&gt;
+&lt;dt&gt;elegant&lt;/dt&gt;&lt;dd&gt;Title-only indices, interesting category browser (super-script number counts the entries, kind of weird), drop down menu.  good but maybe too cutsie, tag searching, general search input but it is broken (no search.html).  Scaling to mobile.  dump scaling on far zoom out&lt;/dd&gt;
 &lt;/dl&gt;
 &lt;p&gt;
 Top ranked
 &lt;/p&gt;
 &lt;dl class="org-dl"&gt;
-&lt;dt&gt; gum &lt;/dt&gt;&lt;dd&gt;good side bar (pages, categories, tags), teaser indices, handles long code lines, nav bar, tags
-&lt;/dd&gt;
-&lt;dt&gt; pelipress &lt;/dt&gt;&lt;dd&gt;good nav, good scaling, teaser indices, scrolling code, collapsible sidebar, no home link, needs translation
-&lt;/dd&gt;
-&lt;dt&gt; fresh &lt;/dt&gt;&lt;dd&gt;good layout, style, scale.  good nav
-&lt;/dd&gt;
+&lt;dt&gt;gum&lt;/dt&gt;&lt;dd&gt;good side bar (pages, categories, tags), teaser indices, handles long code lines, nav bar, tags&lt;/dd&gt;
+&lt;dt&gt;pelipress&lt;/dt&gt;&lt;dd&gt;good nav, good scaling, teaser indices, scrolling code, collapsible sidebar, no home link, needs translation&lt;/dd&gt;
+&lt;dt&gt;fresh&lt;/dt&gt;&lt;dd&gt;good layout, style, scale.  good nav&lt;/dd&gt;
 &lt;/dl&gt;
 &lt;p&gt;
 Second place
 &lt;/p&gt;
 &lt;dl class="org-dl"&gt;
-&lt;dt&gt; blueidea &lt;/dt&gt;&lt;dd&gt;(3) most recent article followed by other articles with teasers. top category bar
-&lt;/dd&gt;
-&lt;dt&gt; bootstrap &lt;/dt&gt;&lt;dd&gt;(3) teaser-based main, sidebar links, tags and categories easy access.  visual separation between teasers could use some kind of divider.
-&lt;/dd&gt;
-&lt;dt&gt; bootstrap2 &lt;/dt&gt;&lt;dd&gt;(3) similar, a little more clear layout
-&lt;/dd&gt;
-&lt;dt&gt; cebong &lt;/dt&gt;&lt;dd&gt;(3) looks very nice, main+teasers index, looks like LaTeX, cuts big images
-&lt;/dd&gt;
-&lt;dt&gt; Just-Read &lt;/dt&gt;&lt;dd&gt;(3) good, single teaser followed by title-only index, no category listing
-&lt;/dd&gt;
-&lt;dt&gt; lannisport &lt;/dt&gt;&lt;dd&gt;(3) overlayed side bar, full article index, "paper" background
-&lt;/dd&gt;
-&lt;dt&gt; pelican-sober &lt;/dt&gt;&lt;dd&gt;(3) looks good, scales good, lacks some nav, full-article indices
-&lt;/dd&gt;
+&lt;dt&gt;blueidea&lt;/dt&gt;&lt;dd&gt;(3) most recent article followed by other articles with teasers. top category bar&lt;/dd&gt;
+&lt;dt&gt;bootstrap&lt;/dt&gt;&lt;dd&gt;(3) teaser-based main, sidebar links, tags and categories easy access.  visual separation between teasers could use some kind of divider.&lt;/dd&gt;
+&lt;dt&gt;bootstrap2&lt;/dt&gt;&lt;dd&gt;(3) similar, a little more clear layout&lt;/dd&gt;
+&lt;dt&gt;cebong&lt;/dt&gt;&lt;dd&gt;(3) looks very nice, main+teasers index, looks like LaTeX, cuts big images&lt;/dd&gt;
+&lt;dt&gt;Just-Read&lt;/dt&gt;&lt;dd&gt;(3) good, single teaser followed by title-only index, no category listing&lt;/dd&gt;
+&lt;dt&gt;lannisport&lt;/dt&gt;&lt;dd&gt;(3) overlayed side bar, full article index, "paper" background&lt;/dd&gt;
+&lt;dt&gt;pelican-sober&lt;/dt&gt;&lt;dd&gt;(3) looks good, scales good, lacks some nav, full-article indices&lt;/dd&gt;
 &lt;/dl&gt;
 &lt;p&gt;
 Questions:
 &lt;/p&gt;
 &lt;ul class="org-ul"&gt;
-&lt;li&gt;how to control the teaser blurb?
-&lt;/li&gt;
+&lt;li&gt;how to control the teaser blurb?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</summary></entry><entry><title></title><link href="http://brettviren.github.io/pelican-themes-also-ran" rel="alternate"></link><updated>2015-08-15T00:00:00-04:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-08-15:pelican-themes-also-ran</id><summary type="html">&lt;dl class="org-dl"&gt;
-&lt;dt&gt; aboutwilson &lt;/dt&gt;&lt;dd&gt;(2) simple, nice looking, teaser followed by category and tags list, navigation footer.
-&lt;/dd&gt;
+</summary></entry><entry><title></title><link href="http://brettviren.github.io/pelican-themes-also-ran" rel="alternate"></link><updated>2015-08-23T00:00:00-04:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-08-23:pelican-themes-also-ran</id><summary type="html">&lt;dl class="org-dl"&gt;
+&lt;dt&gt;aboutwilson&lt;/dt&gt;&lt;dd&gt;(2) simple, nice looking, teaser followed by category and tags list, navigation footer.&lt;/dd&gt;
 
-&lt;dt&gt; notmyidea &lt;/dt&gt;&lt;dd&gt;(0) default, nice looking, shows entire article on main index, gives categories in a header bar.
-&lt;/dd&gt;
+&lt;dt&gt;notmyidea&lt;/dt&gt;&lt;dd&gt;(0) default, nice looking, shows entire article on main index, gives categories in a header bar.&lt;/dd&gt;
 
-&lt;dt&gt; alchemy &lt;/dt&gt;&lt;dd&gt;(2) nice looking, simple style, shows heads of 5 articles on main index, no category bar.
-&lt;/dd&gt;
+&lt;dt&gt;alchemy&lt;/dt&gt;&lt;dd&gt;(2) nice looking, simple style, shows heads of 5 articles on main index, no category bar.&lt;/dd&gt;
 
-&lt;dt&gt; backdrop &lt;/dt&gt;&lt;dd&gt;(0) fails &lt;code&gt;CRITICAL: UndefinedError: 'articles_paginator' is undefined&lt;/code&gt;
-&lt;/dd&gt;
+&lt;dt&gt;backdrop&lt;/dt&gt;&lt;dd&gt;(0) fails &lt;code&gt;CRITICAL: UndefinedError: 'articles_paginator' is undefined&lt;/code&gt;&lt;/dd&gt;
 
-&lt;dt&gt; basic &lt;/dt&gt;&lt;dd&gt;(1) looks okay, content all on LHS of screen, teaser, no categories/tags
-&lt;/dd&gt;
+&lt;dt&gt;basic&lt;/dt&gt;&lt;dd&gt;(1) looks okay, content all on LHS of screen, teaser, no categories/tags&lt;/dd&gt;
 
-&lt;dt&gt; bluegrasshopper &lt;/dt&gt;&lt;dd&gt;(1) thin strip of content, no yeaser, highly styled, bad font scaling
-&lt;/dd&gt;
+&lt;dt&gt;bluegrasshopper&lt;/dt&gt;&lt;dd&gt;(1) thin strip of content, no yeaser, highly styled, bad font scaling&lt;/dd&gt;
 
-&lt;dt&gt; blue-penguine &lt;/dt&gt;&lt;dd&gt;(2) not blue, clean, white, full articles on main page, link to "Archive", no category bar, no teasers.
-&lt;/dd&gt;
+&lt;dt&gt;blue-penguine&lt;/dt&gt;&lt;dd&gt;(2) not blue, clean, white, full articles on main page, link to "Archive", no category bar, no teasers.&lt;/dd&gt;
 
-&lt;dt&gt; bold &lt;/dt&gt;&lt;dd&gt;(0) fails &lt;code&gt;CRITICAL: TypeError: expected string or buffer&lt;/code&gt;
-&lt;/dd&gt;
+&lt;dt&gt;bold&lt;/dt&gt;&lt;dd&gt;(0) fails &lt;code&gt;CRITICAL: TypeError: expected string or buffer&lt;/code&gt;&lt;/dd&gt;
 
-&lt;dt&gt; bootlex &lt;/dt&gt;&lt;dd&gt;(1) looks nice, teasers on main page, links in RHS sidebar, tags but no categories.  Would needs translating to en and some fine-tuning of text (eg, removal of "Blog" title).
-&lt;/dd&gt;
+&lt;dt&gt;bootlex&lt;/dt&gt;&lt;dd&gt;(1) looks nice, teasers on main page, links in RHS sidebar, tags but no categories.  Would needs translating to en and some fine-tuning of text (eg, removal of "Blog" title).&lt;/dd&gt;
 
-&lt;dt&gt; brownstone &lt;/dt&gt;&lt;dd&gt;(2) main+teaser layout, nice but too stylish for me
-&lt;/dd&gt;
+&lt;dt&gt;brownstone&lt;/dt&gt;&lt;dd&gt;(2) main+teaser layout, nice but too stylish for me&lt;/dd&gt;
 
-&lt;dt&gt; BT3-Flat &lt;/dt&gt;&lt;dd&gt;(0) picture-scroll-reveal style.  Looks like a damn startup company page.
-&lt;/dd&gt;
+&lt;dt&gt;BT3-Flat&lt;/dt&gt;&lt;dd&gt;(0) picture-scroll-reveal style.  Looks like a damn startup company page.&lt;/dd&gt;
 
-&lt;dt&gt; buildtexts &lt;/dt&gt;&lt;dd&gt;(2) last+teaser layout
-&lt;/dd&gt;
+&lt;dt&gt;buildtexts&lt;/dt&gt;&lt;dd&gt;(2) last+teaser layout&lt;/dd&gt;
 
-&lt;dt&gt; burrito &lt;/dt&gt;&lt;dd&gt;(0) failed =CRITICAL: TemplateSyntaxError: Encountered unknown tag 'assets'=
-&lt;/dd&gt;
+&lt;dt&gt;burrito&lt;/dt&gt;&lt;dd&gt;(0) failed =CRITICAL: TemplateSyntaxError: Encountered unknown tag 'assets'=&lt;/dd&gt;
 &lt;/dl&gt;
 
 
 &lt;dl class="org-dl"&gt;
-&lt;dt&gt; chunk &lt;/dt&gt;&lt;dd&gt;(2) lots of unused space.  no distinction between links and categories
-&lt;/dd&gt;
+&lt;dt&gt;chunk&lt;/dt&gt;&lt;dd&gt;(2) lots of unused space.  no distinction between links and categories&lt;/dd&gt;
 
-&lt;dt&gt; croswsfoot &lt;/dt&gt;&lt;dd&gt;(2) unused space, but zoomable, teasers, images okay
-&lt;/dd&gt;
+&lt;dt&gt;croswsfoot&lt;/dt&gt;&lt;dd&gt;(2) unused space, but zoomable, teasers, images okay&lt;/dd&gt;
 
-&lt;dt&gt; foundation-default-colours &lt;/dt&gt;&lt;dd&gt;(2) looks good, teaser indices, no archive, side bar
-&lt;/dd&gt;
+&lt;dt&gt;foundation-default-colours&lt;/dt&gt;&lt;dd&gt;(2) looks good, teaser indices, no archive, side bar&lt;/dd&gt;
 
-&lt;dt&gt; franticworld &lt;/dt&gt;&lt;dd&gt;(0) too stylish
-&lt;/dd&gt;
+&lt;dt&gt;franticworld&lt;/dt&gt;&lt;dd&gt;(0) too stylish&lt;/dd&gt;
 
-&lt;dt&gt; html5-dopetrope &lt;/dt&gt;&lt;dd&gt;(0) 
-&lt;/dd&gt;
+&lt;dt&gt;html5-dopetrope&lt;/dt&gt;&lt;dd&gt;(0)&lt;/dd&gt;
 
-&lt;dt&gt; irfan &lt;/dt&gt;&lt;dd&gt;(0) failed
-&lt;/dd&gt;
+&lt;dt&gt;irfan&lt;/dt&gt;&lt;dd&gt;(0) failed&lt;/dd&gt;
 
-&lt;dt&gt; iris &lt;/dt&gt;&lt;dd&gt;(1) looks nice but more for text, not great text rendering, long code lines don't wrap
-&lt;/dd&gt;
+&lt;dt&gt;iris&lt;/dt&gt;&lt;dd&gt;(1) looks nice but more for text, not great text rendering, long code lines don't wrap&lt;/dd&gt;
 
-&lt;dt&gt; jesuislibre &lt;/dt&gt;&lt;dd&gt;(0)
-&lt;/dd&gt;
+&lt;dt&gt;jesuislibre&lt;/dt&gt;&lt;dd&gt;(0)&lt;/dd&gt;
 
-&lt;dt&gt; lazystrap &lt;/dt&gt;&lt;dd&gt;(0) failed
-&lt;/dd&gt;
+&lt;dt&gt;lazystrap&lt;/dt&gt;&lt;dd&gt;(0) failed&lt;/dd&gt;
 
-&lt;dt&gt; lightweight &lt;/dt&gt;&lt;dd&gt;(2) looks nice, no tags, teaser indices, needs translations, background needs work
-&lt;/dd&gt;
+&lt;dt&gt;lightweight&lt;/dt&gt;&lt;dd&gt;(2) looks nice, no tags, teaser indices, needs translations, background needs work&lt;/dd&gt;
 
-&lt;dt&gt; lovers &lt;/dt&gt;&lt;dd&gt;(1) too bloggy, resizes dumbly
-&lt;/dd&gt;
+&lt;dt&gt;lovers&lt;/dt&gt;&lt;dd&gt;(1) too bloggy, resizes dumbly&lt;/dd&gt;
 
-&lt;dt&gt; maggner-pelican &lt;/dt&gt;&lt;dd&gt;(0) fails
-&lt;/dd&gt;
+&lt;dt&gt;maggner-pelican&lt;/dt&gt;&lt;dd&gt;(0) fails&lt;/dd&gt;
 
-&lt;dt&gt; martin-pelican &lt;/dt&gt;&lt;dd&gt;(1) styled for mobile
-&lt;/dd&gt;
+&lt;dt&gt;martin-pelican&lt;/dt&gt;&lt;dd&gt;(1) styled for mobile&lt;/dd&gt;
 
-&lt;dt&gt; martyalchin &lt;/dt&gt;&lt;dd&gt;(1) somewhat broken, looks nice, not much navigation
-&lt;/dd&gt;
+&lt;dt&gt;martyalchin&lt;/dt&gt;&lt;dd&gt;(1) somewhat broken, looks nice, not much navigation&lt;/dd&gt;
 
-&lt;dt&gt; mg &lt;/dt&gt;&lt;dd&gt;(2) okay, looks like some MicroSoft-world blog, fonts are hard on the eyes
-&lt;/dd&gt;
+&lt;dt&gt;mg&lt;/dt&gt;&lt;dd&gt;(2) okay, looks like some MicroSoft-world blog, fonts are hard on the eyes&lt;/dd&gt;
 
-&lt;dt&gt; mnmlist &lt;/dt&gt;&lt;dd&gt;(1) too much so
-&lt;/dd&gt;
+&lt;dt&gt;mnmlist&lt;/dt&gt;&lt;dd&gt;(1) too much so&lt;/dd&gt;
 
-&lt;dt&gt; monospace &lt;/dt&gt;&lt;dd&gt;(2) is what it claims to be, not enough differentiation between text and code, bad placements of nav
-&lt;/dd&gt;
+&lt;dt&gt;monospace&lt;/dt&gt;&lt;dd&gt;(2) is what it claims to be, not enough differentiation between text and code, bad placements of nav&lt;/dd&gt;
 
-&lt;dt&gt; neat &lt;/dt&gt;&lt;dd&gt;(1) no styling
-&lt;/dd&gt;
+&lt;dt&gt;neat&lt;/dt&gt;&lt;dd&gt;(1) no styling&lt;/dd&gt;
 
-&lt;dt&gt; nest &lt;/dt&gt;&lt;dd&gt;(1) okay, gigantic header, but no nav
-&lt;/dd&gt;
+&lt;dt&gt;nest&lt;/dt&gt;&lt;dd&gt;(1) okay, gigantic header, but no nav&lt;/dd&gt;
 
-&lt;dt&gt; new-bootstrap &lt;/dt&gt;&lt;dd&gt;(2) three column index with teasers, bad scaling
-&lt;/dd&gt;
+&lt;dt&gt;new-bootstrap&lt;/dt&gt;&lt;dd&gt;(2) three column index with teasers, bad scaling&lt;/dd&gt;
 
-&lt;dt&gt; nikhil-theme &lt;/dt&gt;&lt;dd&gt;(2) date-teaser columns for index, no archive/category nav, broken tag/category links
-&lt;/dd&gt;
+&lt;dt&gt;nikhil-theme&lt;/dt&gt;&lt;dd&gt;(2) date-teaser columns for index, no archive/category nav, broken tag/category links&lt;/dd&gt;
 
-&lt;dt&gt; niu-x2 &lt;/dt&gt;&lt;dd&gt;(0) failed
-&lt;/dd&gt;
+&lt;dt&gt;niu-x2&lt;/dt&gt;&lt;dd&gt;(0) failed&lt;/dd&gt;
 
-&lt;dt&gt; nmnmlist &lt;/dt&gt;&lt;dd&gt;(1) too much so, just darker
-&lt;/dd&gt;
+&lt;dt&gt;nmnmlist&lt;/dt&gt;&lt;dd&gt;(1) too much so, just darker&lt;/dd&gt;
 
-&lt;dt&gt; notebook &lt;/dt&gt;&lt;dd&gt;(1) chokes on pre-heading text
-&lt;/dd&gt;
+&lt;dt&gt;notebook&lt;/dt&gt;&lt;dd&gt;(1) chokes on pre-heading text&lt;/dd&gt;
 
-&lt;dt&gt; Nuja &lt;/dt&gt;&lt;dd&gt;(2) full-article indices, wasted space
-&lt;/dd&gt;
+&lt;dt&gt;Nuja&lt;/dt&gt;&lt;dd&gt;(2) full-article indices, wasted space&lt;/dd&gt;
 
-&lt;dt&gt; pelican-cait &lt;/dt&gt;&lt;dd&gt;(1) wasted side space
-&lt;/dd&gt;
+&lt;dt&gt;pelican-cait&lt;/dt&gt;&lt;dd&gt;(1) wasted side space&lt;/dd&gt;
 
-&lt;dt&gt; pelican-simplgrey &lt;/dt&gt;&lt;dd&gt;(2) bad scaling
-&lt;/dd&gt;
+&lt;dt&gt;pelican-simplgrey&lt;/dt&gt;&lt;dd&gt;(2) bad scaling&lt;/dd&gt;
 &lt;/dl&gt;
 
 
 &lt;dl class="org-dl"&gt;
-&lt;dt&gt; plumage &lt;/dt&gt;&lt;dd&gt;(2) bad nav, good scaling, teaser indices, scrolling code, 
-&lt;/dd&gt;
+&lt;dt&gt;plumage&lt;/dt&gt;&lt;dd&gt;(2) bad nav, good scaling, teaser indices, scrolling code,&lt;/dd&gt;
 
-&lt;dt&gt; pujanga &lt;/dt&gt;&lt;dd&gt;(0) some script freaks firefox
-&lt;/dd&gt;
+&lt;dt&gt;pujanga&lt;/dt&gt;&lt;dd&gt;(0) some script freaks firefox&lt;/dd&gt;
 
-&lt;dt&gt; pure &lt;/dt&gt;&lt;dd&gt;(0) wasted side space
-&lt;/dd&gt;
+&lt;dt&gt;pure&lt;/dt&gt;&lt;dd&gt;(0) wasted side space&lt;/dd&gt;
 
-&lt;dt&gt; relapse &lt;/dt&gt;&lt;dd&gt;(0) meh
-&lt;/dd&gt;
+&lt;dt&gt;relapse&lt;/dt&gt;&lt;dd&gt;(0) meh&lt;/dd&gt;
 
-&lt;dt&gt; Responsive-Pelican &lt;/dt&gt;&lt;dd&gt;(2) it's okay.  not sure what's "responsive" about it
-&lt;/dd&gt;
+&lt;dt&gt;Responsive-Pelican&lt;/dt&gt;&lt;dd&gt;(2) it's okay.  not sure what's "responsive" about it&lt;/dd&gt;
 
-&lt;dt&gt; voidy-bootstrap &lt;/dt&gt;&lt;dd&gt;(2) nav bad, wasted header
-&lt;/dd&gt;
+&lt;dt&gt;voidy-bootstrap&lt;/dt&gt;&lt;dd&gt;(2) nav bad, wasted header&lt;/dd&gt;
 
-&lt;dt&gt; waterspill-en &lt;/dt&gt;&lt;dd&gt;(1) cute, but too stylish
-&lt;/dd&gt;
+&lt;dt&gt;waterspill-en&lt;/dt&gt;&lt;dd&gt;(1) cute, but too stylish&lt;/dd&gt;
 &lt;/dl&gt;
+</summary></entry><entry><title></title><link href="http://brettviren.github.io/root5" rel="alternate"></link><updated>2015-08-23T00:00:00-04:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-08-23:root5</id><summary type="html">
+&lt;div class="outline-2" id="outline-container-orgheadline4"&gt;
+&lt;h2 id="orgheadline4"&gt;&lt;span class="section-number-2"&gt;1&lt;/span&gt; User Install&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-1"&gt;
+&lt;/div&gt;&lt;div class="outline-3" id="outline-container-orgheadline1"&gt;
+&lt;h3 id="orgheadline1"&gt;&lt;span class="section-number-3"&gt;1.1&lt;/span&gt; Install in a PRoot&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-1-1"&gt;
+&lt;p&gt;
+PRoot is like a light-weight, user-level &lt;code&gt;chroot&lt;/code&gt;.
+It is a native system package on my OS:
+&lt;/p&gt;
+&lt;pre class="example"&gt;
+$ sudo apt-get install proot
+&lt;/pre&gt;
+&lt;p&gt;
+Following &lt;a href="https://nixos.org/wiki/How_to_install_nix_in_home_(on_another_distribution)#PRoot_Installation"&gt;PRoot-based installation&lt;/a&gt; a Nix installation is prepared like:
+&lt;/p&gt;
+&lt;pre class="example"&gt;
+$ mkdir -p /path/to/mystuff
+$ cd /path/to/mystuff
+$ wget http://hydra.nixos.org/build/23017494/download/1/nix-1.9-x86_64-linux.tar.bz2
+$ tar -xvf nix-1.9-x86_64-linux.tar.bz2
+$ proot -b `pwd`/nix-1.9-x86_64-linux/:/nix bash
+$ cd /nix
+$ ls
+install  store
+$ ./install
+$ source $HOME/.nix-profile/etc/profile.d/nix.sh
+
+$ du -sh store
+309M    store
+$ nix-env -qa |wc -l
+11624
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="outline-3" id="outline-container-orgheadline2"&gt;
+&lt;h3 id="orgheadline2"&gt;&lt;span class="section-number-3"&gt;1.2&lt;/span&gt; Native install&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-1-2"&gt;
+&lt;p&gt;
+As light-weight as PRoot is, there is apparently some run-time overhead.  From inside the environment it provides it is possible to build Nix packages that can run native and out of a different &lt;i&gt;package store&lt;/i&gt; root than the conventional &lt;code&gt;/nix&lt;/code&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+Pick the directory wisely as it gets baked in to all the building that comes next.
+&lt;/p&gt;
+&lt;pre class="example"&gt;
+$ nix-channel --update
+$ mkdir -p /path/to/nix
+$ NIX_STORE_DIR=/path/to/nix nix-env -i nix
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="outline-3" id="outline-container-orgheadline3"&gt;
+&lt;h3 id="orgheadline3"&gt;&lt;span class="section-number-3"&gt;1.3&lt;/span&gt; Developing&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-1-3"&gt;
+&lt;p&gt;
+&lt;a href="https://nixos.org/wiki/Create_and_debug_nix_packages"&gt;https://nixos.org/wiki/Create_and_debug_nix_packages&lt;/a&gt;
+&lt;/p&gt;
+&lt;pre class="example"&gt;
+$ git clone https://github.com/NixOS/nixpkgs.git
+$ export NIXPKGS=`pwd`/nixpkgs
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="outline-2" id="outline-container-orgheadline6"&gt;
+&lt;h2 id="orgheadline6"&gt;&lt;span class="section-number-2"&gt;2&lt;/span&gt; Build ROOT&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-2"&gt;
+&lt;p&gt;
+The goal here is to build ROOT6 as a Nix package.  Someone has already packaged ROOT5, let's try that first:
+&lt;/p&gt;
+&lt;pre class="example"&gt;
+$ nix-env -qa root
+root-5.34.15
+$ nix-env -i root
+installing ‘root-5.34.15’
+...
+Linking CXX shared library ../../lib/libRGL.so
+CMakeFiles/RGL.dir/src/TX11GL.cxx.o: In function `TX11GLManager::ReadGLBuffer(int)':
+TX11GL.cxx:(.text+0x1b4): undefined reference to `XPutImage'
+TX11GL.cxx:(.text+0x21c): undefined reference to `XCreateGC'
+CMakeFiles/RGL.dir/src/TX11GL.cxx.o: In function `TX11GLManager::Flush(int)':
+TX11GL.cxx:(.text+0x6ae): undefined reference to `XCopyArea'
+TX11GL.cxx:(.text+0x731): undefined reference to `XCreateGC'
+CMakeFiles/RGL.dir/src/TX11GL.cxx.o: In function `TX11GLManager::DeleteGLContext(int)':
+TX11GL.cxx:(.text+0x835): undefined reference to `XFreeGC'
+TX11GL.cxx:(.text+0x856): undefined reference to `XFreeGC'
+CMakeFiles/RGL.dir/src/TX11GL.cxx.o: In function `TX11GLManager::InitGLWindow(unsigned long)':
+TX11GL.cxx:(.text+0x11a2): undefined reference to `XGetGeometry'
+TX11GL.cxx:(.text+0x1287): undefined reference to `XCreateColormap'
+TX11GL.cxx:(.text+0x12e9): undefined reference to `XCreateWindow'
+TX11GL.cxx:(.text+0x1303): undefined reference to `XMapWindow'
+CMakeFiles/RGL.dir/src/TX11GL.cxx.o: In function `TX11GLManager::CreateGLPixmap(TX11GLManager::TGLContext_t&amp;amp;)':
+TX11GL.cxx:(.text+0x14d3): undefined reference to `XCreatePixmap'
+TX11GL.cxx:(.text+0x1561): undefined reference to `XCreateImage'
+TX11GL.cxx:(.text+0x1596): undefined reference to `XInitImage'
+TX11GL.cxx:(.text+0x178f): undefined reference to `XFreePixmap'
+TX11GL.cxx:(.text+0x181b): undefined reference to `XFreePixmap'
+CMakeFiles/RGL.dir/src/TGLWidget.cxx.o: In function `TGLWidget::CreateWindow(TGWindow const*, TGLFormat const&amp;amp;, unsigned int, unsigned int, std::pair&amp;lt;void*, void*&amp;gt;&amp;amp;)':
+TGLWidget.cxx:(.text+0x9b3): undefined reference to `XCreateColormap'
+TGLWidget.cxx:(.text+0xa08): undefined reference to `XCreateWindow'
+CMakeFiles/RGL.dir/src/TGLWidget.cxx.o: In function `TGLWidget::~TGLWidget()':
+TGLWidget.cxx:(.text+0x1665): undefined reference to `XFree'
+CMakeFiles/RGL.dir/src/TGLFormat.cxx.o: In function `TGLFormat::InitAvailableSamples()':
+TGLFormat.cxx:(.text+0x40a): undefined reference to `XGetVisualInfo'
+TGLFormat.cxx:(.text+0x485): undefined reference to `XFree'
+collect2: error: ld returned 1 exit status
+graf3d/gl/CMakeFiles/RGL.dir/build.make:2445: recipe for target 'lib/libRGL.so' failed
+make[2]: *** [lib/libRGL.so] Error 1
+CMakeFiles/Makefile2:7032: recipe for target 'graf3d/gl/CMakeFiles/RGL.dir/all' failed
+make[1]: *** [graf3d/gl/CMakeFiles/RGL.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+Linking CXX shared library ../lib/libTMVA.so
+[ 92%] Built target TMVA
+Makefile:136: recipe for target 'all' failed
+make: *** [all] Error 2
+builder for ‘/nix/store/l88wsvbpjr3lrz7pzfc3b0mj6hhrg25j-root-5.34.15.drv’ failed with exit code 2
+error: build of ‘/nix/store/l88wsvbpjr3lrz7pzfc3b0mj6hhrg25j-root-5.34.15.drv’ failed
+&lt;/pre&gt;
+&lt;p&gt;
+Seems that the ROOT package doesn't depend on X11 libs.
+&lt;/p&gt;
+&lt;p&gt;
+Let's get the latest from nixpkgs
+&lt;/p&gt;
+&lt;p&gt;
+From inside the PRoot
+&lt;/p&gt;
+&lt;pre class="example"&gt;
+$ cd /nix
+$ git clone https://github.com/NixOS/nixpkgs.git
+$ export NIXPKGS=/nix/nixpkgs
+$ nix-env -f $NIXPKGS -qa root
+root-5.34.15
+...
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class="outline-3" id="outline-container-orgheadline5"&gt;
+&lt;h3 id="orgheadline5"&gt;&lt;span class="section-number-3"&gt;2.1&lt;/span&gt; Debug the build&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-2-1"&gt;
+&lt;pre class="example"&gt;
+$ proot -b /srv/nix/nix-1.9-x86_64-linux/:/nix bash -l
+$ source $HOME/.nix-profile/etc/profile.d/nix.sh
+$ nix-shell /nix/nixpkgs --pure -A root
+$ genericBuild
+&lt;/pre&gt;
+&lt;p&gt;
+When that &lt;code&gt;genericBuild&lt;/code&gt; fails it kicks you out of the shell.  The individual steps are
+&lt;/p&gt;
+&lt;pre class="example"&gt;
+$ unpackPhase
+$ cd root
+$ patchPhase
+$ cmakeConfigurePhase  # leaves you in root/build/
+$ buildPhase
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Building ROOT 6 for Nix</title><link href="http://brettviren.github.io/root6" rel="alternate"></link><updated>2015-08-23T00:00:00-04:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-08-23:root6</id><summary type="html">
+&lt;div class="outline-2" id="outline-container-orgheadline4"&gt;
+&lt;h2 id="orgheadline4"&gt;&lt;span class="section-number-2"&gt;1&lt;/span&gt; Introduction and Overview&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-1"&gt;
+&lt;p&gt;
+There is a ROOT5 Nix package but it has some problems:
+&lt;/p&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;it does not actually build (fails to find X11)&lt;/li&gt;
+&lt;li&gt;it does not not build many of the features needed (eg, databases Python, fftw3, PNG/JPEG)&lt;/li&gt;
+&lt;li&gt;it does not use CMake despite that being the obvious intent&lt;/li&gt;
+&lt;li&gt;it produces a monolithic output&lt;/li&gt;
+&lt;li&gt;it's not ROOT 6&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The goal here is to write a Nix package that fixes these issues while learning what are nixpkgs "best practices".  
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="outline-3" id="outline-container-orgheadline3"&gt;
+&lt;h3 id="orgheadline3"&gt;&lt;span class="section-number-3"&gt;1.1&lt;/span&gt; Other ROOT Packaging&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-1-1"&gt;
+&lt;/div&gt;&lt;div class="outline-4" id="outline-container-orgheadline1"&gt;
+&lt;h4 id="orgheadline1"&gt;&lt;span class="section-number-4"&gt;1.1.1&lt;/span&gt; Modular builds&lt;/h4&gt;
+&lt;div class="outline-text-4" id="text-1-1-1"&gt;
+&lt;p&gt;
+ROOT itself is designed with a high degree of modularity both in terms of compile-time and run-time variants as well as providing an explicit plug-in system.  This modularity can be preserved to give the end-user flexibility in which parts of ROOT to install, and more importantly, what dependencies they must be satisfied.
+&lt;/p&gt;
+&lt;p&gt;
+ROOT comes with support for building Debian and Red Hat packages, (Christian Holm Christensen).  The same system builds packages for both distributions and the results are various modular packages relying on the distro's native dependency resolution system.  The packaging system lives in the ROOT source under the &lt;code&gt;build/package/&lt;/code&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+It is desired that Nix packaging extend this existing packaging system or at the very least embrace its strategy.  
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="outline-4" id="outline-container-orgheadline2"&gt;
+&lt;h4 id="orgheadline2"&gt;&lt;span class="section-number-4"&gt;1.1.2&lt;/span&gt; Monolithic builds&lt;/h4&gt;
+&lt;div class="outline-text-4" id="text-1-1-2"&gt;
+&lt;p&gt;
+It's typical for individuals, experiments or collectives to build ROOT from source tailored to what they need.  Instead of the modular approach of the built-in packaging they simply target the necessary sub-set of features and call the whole thing "ROOT".  This means one person's "ROOT" is not another person's, even if it's the same version.
+&lt;/p&gt;
+&lt;p&gt;
+This is find unless these variants are to be somehow managed together, such as in a HEP-wide packaging system.  Going this route requires identifiers (Fermilab calls them "qualifiers") to be invented.  Since ROOT has multiple, orthogonal build choices there is a vast number of variants to cover all combinations.  Consider:
+&lt;/p&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;language bindings (python, r, ruby, and maybe "go" one day)&lt;/li&gt;
+&lt;li&gt;database support (sqlite, MySQL, postgresql, oracle)&lt;/li&gt;
+&lt;li&gt;optional xrootd support&lt;/li&gt;
+&lt;li&gt;optional proof support&lt;/li&gt;
+&lt;li&gt;optional pythia support (v6 or v8)&lt;/li&gt;
+&lt;li&gt;optional gsl support&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+There are more, but this is already enough to provide for hundreds of combinations.  This alone is not manageable.  If multiple compilers are to be supported things get even worse.  And, of course, new versions of ROOT are coming out so building out this complexity is an ongoing affair.
+&lt;/p&gt;
+&lt;p&gt;
+One way to avoid these explosive combinatorics is with a targeted-monolithic strategy where a select few points in this multi-dimensional space are chosen for building.  One negative consequence of this is to marginalize away any groups that require unsupported combinations.  Only combinations deemed worthy by central build services are created.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="outline-2" id="outline-container-orgheadline12"&gt;
+&lt;h2 id="orgheadline12"&gt;&lt;span class="section-number-2"&gt;2&lt;/span&gt; Initial build notes&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-2"&gt;
+&lt;p&gt;
+These are the steps to a monolithic ROOT 6 build in Nix, targeting just one of the combinations described above.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="outline-3" id="outline-container-orgheadline5"&gt;
+&lt;h3 id="orgheadline5"&gt;&lt;span class="section-number-3"&gt;2.1&lt;/span&gt; Starting out&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-2-1"&gt;
+&lt;p&gt;
+It's recommended to fork &lt;code&gt;NixOS/nixpkgs&lt;/code&gt; in GitHub so I work out of that as &lt;code&gt;origin&lt;/code&gt;.
+&lt;/p&gt;
+&lt;pre class="example"&gt;
+$ cd /srv/nix
+$ git clone https://github.com/brettviren/nixpkgs.git
+&lt;/pre&gt;
+&lt;p&gt;
+Now to pick a name and location in nixpkgs.  The repository is organized by some category system which seems to have good intention but is actually not well suited to finding a good home for ROOT and mostly just serves to confound my attempts to find packages.
+In any case, the existing ROOT 5 package is at:
+&lt;/p&gt;
+&lt;pre class="example"&gt;
+$ find nixpkgs -name root
+nixpkgs/pkgs/applications/science/misc/root
+&lt;/pre&gt;
+&lt;p&gt;
+ROOT is used outside of science (a little) and I wouldn't call Physics "misc" given that it's the basis of all science (mathematicians, you be quiet).  ROOT is also not predominantly an "application" (&lt;code&gt;root.exe&lt;/code&gt; is just a few dozen lines of code).  Also in nixpkgs is:
+&lt;/p&gt;
+&lt;pre class="example"&gt;
+$ find nixpkgs -name geant4
+nixpkgs/pkgs/development/libraries/physics/geant4
+&lt;/pre&gt;
+&lt;p&gt;
+That seems like a more appropriate location.
+Also, the name ROOT is a really horribly generic one.  To distinguish it somewhat I'll pick &lt;code&gt;rootsys&lt;/code&gt; and put it as a sister to &lt;code&gt;geant4&lt;/code&gt;.
+&lt;/p&gt;
+&lt;pre class="example"&gt;
+$ emacs nixpkgs/pkgs/development/libraries/physics/rootsys/default.nix
+&lt;/pre&gt;
+&lt;p&gt;
+Also, must add to 
+&lt;code&gt;nixpkgs/pkgs/top-level/all-packages.nix&lt;/code&gt;.
+&lt;/p&gt;
+&lt;pre class="example"&gt;
+# for now, minimal
+rootsys = callPackage ../development/libraries/physics/rootsys {
+};
+&lt;/pre&gt;
+&lt;p&gt;
+The build environment always starts with this:
+&lt;/p&gt;
+&lt;pre class="example"&gt;
+$ proot -b /srv/nix/nix-1.9-x86_64-linux/:/nix bash -l
+$ source $HOME/.nix-profile/etc/profile.d/nix.sh
+$ cd /src/nix
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="outline-3" id="outline-container-orgheadline6"&gt;
+&lt;h3 id="orgheadline6"&gt;&lt;span class="section-number-3"&gt;2.2&lt;/span&gt; Getting the source&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-2-2"&gt;
+&lt;p&gt;
+To start, let's get a recent release of ROOT6 source on disk and in an environment to build it.
+&lt;/p&gt;
+&lt;pre class="example"&gt;
+$ nix-prefetch-url http://root.cern.ch/download/root_v6.04.02.source.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   343  100   343    0     0   1625      0 --:--:-- --:--:-- --:--:--  1633
+100 94.6M  100 94.6M    0     0  5841k      0  0:00:16  0:00:16 --:--:-- 7231k
+path is ‘/nix/store/bbfq8x7hmk521xspxc1iv0b7r26rcgsa-root_v6.04.02.source.tar.gz’
+16irxlpl5xirz4v5mnnfs672j6v1j21lmf4xjrjzabjrllvmwhc1
+&lt;/pre&gt;
+&lt;p&gt;
+Type that in to the recipe (see &lt;code&gt;ba216cd89f4d434167a24090e078dd69ce8d1ed3&lt;/code&gt;) and test:
+&lt;/p&gt;
+&lt;pre class="example"&gt;
+$ nix-build /srv/nix/nixpkgs --pure -A rootsys
+&lt;/pre&gt;
+&lt;p&gt;
+It should download, unpack, try to patch, run configure (thanks to the existence of ROOT's fake autoconf script) and then fail.
+&lt;/p&gt;
+&lt;p&gt;
+Can also exercise these first bits by hand:
+&lt;/p&gt;
+&lt;pre class="example"&gt;
+$ nix-shell --pure -A rootsys /srv/nix/nixpkgs
+$ cd /srv/nix
+$ unpackPhase
+$ ls root-6.04.02/
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="outline-3" id="outline-container-orgheadline7"&gt;
+&lt;h3 id="orgheadline7"&gt;&lt;span class="section-number-3"&gt;2.3&lt;/span&gt; Initial CMake'ing&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-2-3"&gt;
+&lt;p&gt;
+Next is to configure the source with CMake.  Nix cues off of the existence of ROOT's &lt;code&gt;configure&lt;/code&gt; script so that needs removal.  That is done by writing a little shell fragment and setting it to the &lt;code&gt;preConfigure&lt;/code&gt; variable. 
+&lt;/p&gt;
+&lt;p&gt;
+The CMake step can be done by hand like:
+&lt;/p&gt;
+&lt;pre class="example"&gt;
+$ nix-shell --pure -A rootsys /srv/nix/nixpkgs
+$ cd /srv/nix/root-6.04.02
+$ cmakeConfigurePhase
+&lt;/pre&gt;
+&lt;p&gt;
+It' s a mystery to me how the &lt;code&gt;cmakeConfigurePhase&lt;/code&gt; instead of the default &lt;code&gt;configurePhase&lt;/code&gt; gets run for you when a &lt;code&gt;genericBuild&lt;/code&gt; is done, but it will.  
+&lt;/p&gt;
+&lt;p&gt;
+At this point, this will fail as we do not tell the environment about any packages, in particular X11.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="outline-3" id="outline-container-orgheadline8"&gt;
+&lt;h3 id="orgheadline8"&gt;&lt;span class="section-number-3"&gt;2.4&lt;/span&gt; Specifying first dependency: ZLib&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-2-4"&gt;
+&lt;p&gt;
+Let's keep the CMake step failing on X11 for a while, just to keep things failing fast.  Instead, focus on supplying the ZLib dependency:
+&lt;/p&gt;
+&lt;pre class="example"&gt;
+-- Looking for ZLib
+-- Could NOT find ZLIB (missing:  ZLIB_LIBRARY ZLIB_INCLUDE_DIR) 
+-- Zlib not found. Switching on builtin_zlib option
+&lt;/pre&gt;
+&lt;p&gt;
+Find out how ZLib is spelled:
+&lt;/p&gt;
+&lt;pre class="example"&gt;
+$ nix-env -qa '.*zlib.*'
+...
+zlib-1.2.8
+zlib-static-1.2.8
+&lt;/pre&gt;
+&lt;p&gt;
+Add &lt;code&gt;zlib&lt;/code&gt; to the arguments to the function in &lt;code&gt;default.nix&lt;/code&gt; and &lt;code&gt;buildInputs&lt;/code&gt;.
+&lt;/p&gt;
+&lt;pre class="example"&gt;
+$ nix-shell /srv/nix/nixpkgs --pure -A rootsys 
+$ cd /srv/nix/root-6.04.02
+$ rm -rf build
+$ cmakeConfigurePhase
+...
+-- Looking for ZLib
+-- Found ZLIB: /nix/store/az2scrkb88l2q09xa0g6lpbv2mh8lxjl-zlib-1.2.8/lib/libz.so (found version "1.2.8")
+&lt;/pre&gt;
+&lt;p&gt;
+It is necessary to re-start the &lt;code&gt;nix-shell&lt;/code&gt; to pick up the addition of &lt;code&gt;zlib&lt;/code&gt; as reflected in the environment and delete the prior &lt;code&gt;build/&lt;/code&gt; dir so have CMake recheck.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="outline-3" id="outline-container-orgheadline9"&gt;
+&lt;h3 id="orgheadline9"&gt;&lt;span class="section-number-3"&gt;2.5&lt;/span&gt; More dependencies&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-2-5"&gt;
+&lt;p&gt;
+Keep repeating the above to provide dependencies.  For many things, ROOT provides the dubious option to build a dependency using source it provides.  The strategy I take is to prefer system packages. 
+&lt;/p&gt;
+&lt;p&gt;
+To iterate, adding more to the &lt;code&gt;default.nix&lt;/code&gt; and testing one can use &lt;code&gt;nix-shell&lt;/code&gt; as above repeating the &lt;code&gt;cmakeConfigurePhase&lt;/code&gt; script or from outside the &lt;code&gt;nix-shell&lt;/code&gt; do:
+&lt;/p&gt;
+&lt;pre class="example"&gt;
+$ nix-build /srv/nix/nixpkgs --pure -A rootsys [-K]
+...
+note: keeping build directory ‘/tmp/nix-build-rootsys-6.04.02.drv-0’
+&lt;/pre&gt;
+&lt;p&gt;
+This repeats unpacking the source, does it's business in &lt;code&gt;/tmp&lt;/code&gt; and cleans up at the end, even on failure unless the &lt;code&gt;-K&lt;/code&gt; is given.  If the dregs of the last are kept around, subsequent runs will increment that trailing number.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="outline-3" id="outline-container-orgheadline10"&gt;
+&lt;h3 id="orgheadline10"&gt;&lt;span class="section-number-3"&gt;2.6&lt;/span&gt; Final version&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-2-6"&gt;
+&lt;p&gt;
+This is the commit &lt;code&gt;4ede6c5da4ada577c6669ebfa851d4d1c72db071&lt;/code&gt;.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="outline-3" id="outline-container-orgheadline11"&gt;
+&lt;h3 id="orgheadline11"&gt;&lt;span class="section-number-3"&gt;2.7&lt;/span&gt; ROOT Build problems&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-2-7"&gt;
+&lt;p&gt;
+ROOT's CMake build is pretty good but a few things
+&lt;/p&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;MySQL dependencies fail late in the build due to not finding &lt;code&gt;mysql.h&lt;/code&gt;.  The fix is to add this to CMake's config command (&lt;code&gt;cmakeFlags&lt;/code&gt; variable):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class="example"&gt;
+-DMYSQL_CONFIG_EXECUTABLE="{mysql}/bin/mysql_config"
+&lt;/pre&gt;
+&lt;p&gt;
+The patch which is part of the ROOT 5  Nix package is still needed.
+&lt;/p&gt;
+&lt;div class="org-src-container"&gt;
+&lt;pre class="src src-diff"&gt;&lt;span style="font-weight: bold;"&gt;--- &lt;/span&gt;&lt;span style="font-weight: bold;"&gt;a/cmake/modules/RootBuildOptions.cmake      1969-12-31 20:30:01.000000000 -0330&lt;/span&gt;
+&lt;span style="font-weight: bold;"&gt;+++ &lt;/span&gt;&lt;span style="font-weight: bold;"&gt;b/cmake/modules/RootBuildOptions.cmake      2014-01-10 14:09:29.424937408 -0330&lt;/span&gt;
+&lt;span style="font-weight: bold;"&gt;@@ -149,7 +149,7 @@&lt;/span&gt;
+
+ #---General Build options----------------------------------------------------------------------
+ # use, i.e. don't skip the full RPATH for the build tree
+-set(CMAKE_SKIP_BUILD_RPATH  FALSE)
++set(CMAKE_SKIP_BUILD_RPATH  TRUE)
+ # when building, don't use the install RPATH already (but later on when installing)
+ set(CMAKE_BUILD_WITH_INSTALL_RPATH FALSE) 
+ # add the automatically determined parts of the RPATH
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 </summary></entry></feed>

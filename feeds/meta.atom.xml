@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>They Call Me Brett</title><link href="http://brettviren.github.io/" rel="alternate"></link><link href="http://brettviren.github.io/feeds/meta.atom.xml" rel="self"></link><id>http://brettviren.github.io/</id><updated>2015-08-15T00:00:00-04:00</updated><entry><title>This site.</title><link href="http://brettviren.github.io/this" rel="alternate"></link><updated>2015-08-15T00:00:00-04:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2014-03-02:this</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>They Call Me Brett</title><link href="http://brettviren.github.io/" rel="alternate"></link><link href="http://brettviren.github.io/feeds/meta.atom.xml" rel="self"></link><id>http://brettviren.github.io/</id><updated>2015-08-23T00:00:00-04:00</updated><entry><title>This site.</title><link href="http://brettviren.github.io/this" rel="alternate"></link><updated>2015-08-23T00:00:00-04:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2014-03-02:this</id><summary type="html">
 &lt;p&gt;
 This web site has evolved over time.  It is currently written with
 Emacs &lt;a href="//orgmode.org"&gt;org-mode&lt;/a&gt;.  It's Org source is exported with &lt;a href="https://github.com/brettviren/orgonpy"&gt;OrgOnPy&lt;/a&gt; and &lt;a href="http://blog.getpelican.com/"&gt;Pelican&lt;/a&gt;.
 This topic contains notes on how this is done.
 &lt;/p&gt;
-&lt;div class="outline-2" id="outline-container-sec-1"&gt;
-&lt;h2 id="sec-1"&gt;&lt;span class="section-number-2"&gt;1&lt;/span&gt; Generalities&lt;/h2&gt;
+&lt;div class="outline-2" id="outline-container-orgheadline1"&gt;
+&lt;h2 id="orgheadline1"&gt;&lt;span class="section-number-2"&gt;1&lt;/span&gt; Generalities&lt;/h2&gt;
 &lt;div class="outline-text-2" id="text-1"&gt;
 &lt;p&gt;
 I use Emacs for producing pretty much all of my information "output".
@@ -19,8 +19,8 @@ initial "publication".
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="outline-2" id="outline-container-sec-2"&gt;
-&lt;h2 id="sec-2"&gt;&lt;span class="section-number-2"&gt;2&lt;/span&gt; Emacs and Org&lt;/h2&gt;
+&lt;div class="outline-2" id="outline-container-orgheadline2"&gt;
+&lt;h2 id="orgheadline2"&gt;&lt;span class="section-number-2"&gt;2&lt;/span&gt; Emacs and Org&lt;/h2&gt;
 &lt;div class="outline-text-2" id="text-2"&gt;
 &lt;p&gt;
 My &lt;a href="https://github.com/brettviren/dot-emacs"&gt;Emacs config&lt;/a&gt; is online.  The &lt;a href="https://github.com/brettviren/dot-emacs/blob/master/init-org.el"&gt;Org initialization&lt;/a&gt; adds to the
@@ -47,8 +47,8 @@ This export is not what eventually turns into the web page.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="outline-2" id="outline-container-sec-3"&gt;
-&lt;h2 id="sec-3"&gt;&lt;span class="section-number-2"&gt;3&lt;/span&gt; OrgOnPy&lt;/h2&gt;
+&lt;div class="outline-2" id="outline-container-orgheadline3"&gt;
+&lt;h2 id="orgheadline3"&gt;&lt;span class="section-number-2"&gt;3&lt;/span&gt; OrgOnPy&lt;/h2&gt;
 &lt;div class="outline-text-2" id="text-3"&gt;
 &lt;p&gt;
 Unfortunately, I have never been able to fully grok Elisp and Python
@@ -64,8 +64,8 @@ Elisp counterparts.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="outline-2" id="outline-container-sec-4"&gt;
-&lt;h2 id="sec-4"&gt;&lt;span class="section-number-2"&gt;4&lt;/span&gt; Pelican&lt;/h2&gt;
+&lt;div class="outline-2" id="outline-container-orgheadline5"&gt;
+&lt;h2 id="orgheadline5"&gt;&lt;span class="section-number-2"&gt;4&lt;/span&gt; Pelican&lt;/h2&gt;
 &lt;div class="outline-text-2" id="text-4"&gt;
 &lt;p&gt;
 Pelican is a static site generator.  It is well designed with fairly
@@ -93,8 +93,8 @@ settling on &lt;a href="https://github.com/talha131/pelican-elegant/"&gt;elegant
 what I wanted.  Inevitably I wanted to tweak so I have lightly &lt;a href="https://github.com/brettviren/org-pub/tree/master/pelican/site/themes/elegant"&gt;forked elegant&lt;/a&gt;.
 &lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="outline-3" id="outline-container-sec-4-1"&gt;
-&lt;h3 id="sec-4-1"&gt;&lt;span class="section-number-3"&gt;4.1&lt;/span&gt; Machinations&lt;/h3&gt;
+&lt;div class="outline-3" id="outline-container-orgheadline4"&gt;
+&lt;h3 id="orgheadline4"&gt;&lt;span class="section-number-3"&gt;4.1&lt;/span&gt; Machinations&lt;/h3&gt;
 &lt;div class="outline-text-3" id="text-4-1"&gt;
 &lt;p&gt;
 Create an environment for building the web site
@@ -126,27 +126,20 @@ $
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="outline-2" id="outline-container-sec-5"&gt;
-&lt;h2 id="sec-5"&gt;&lt;span class="section-number-2"&gt;5&lt;/span&gt; Links&lt;/h2&gt;
+&lt;div class="outline-2" id="outline-container-orgheadline6"&gt;
+&lt;h2 id="orgheadline6"&gt;&lt;span class="section-number-2"&gt;5&lt;/span&gt; Links&lt;/h2&gt;
 &lt;div class="outline-text-2" id="text-5"&gt;
 &lt;p&gt;
 There are other ways to use Org to make web pages.  Here are some I've looked at.
 &lt;/p&gt;
 &lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://www.seas.upenn.edu/~heqin/academic/sitecreation.html"&gt;http://www.seas.upenn.edu/~heqin/academic/sitecreation.html&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://doc.norang.ca/org-mode.html"&gt;http://doc.norang.ca/org-mode.html&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.nicolas-petton.fr/blog/blogging-with-org-mode.html"&gt;http://www.nicolas-petton.fr/blog/blogging-with-org-mode.html&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://stevenbagley.net/blog/blog-with-emacs-org-mode.html"&gt;http://stevenbagley.net/blog/blog-with-emacs-org-mode.html&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://kerunix.com/blog-using-orgmode-and-pelican.html"&gt;http://kerunix.com/blog-using-orgmode-and-pelican.html&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://steckerhalter.co.vu/posts/blogging-with-org-mode.html"&gt;http://steckerhalter.co.vu/posts/blogging-with-org-mode.html&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://justinlilly.com/emacs/orgmode_static_site_generator.html"&gt;http://justinlilly.com/emacs/orgmode_static_site_generator.html&lt;/a&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.seas.upenn.edu/~heqin/academic/sitecreation.html"&gt;http://www.seas.upenn.edu/~heqin/academic/sitecreation.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://doc.norang.ca/org-mode.html"&gt;http://doc.norang.ca/org-mode.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.nicolas-petton.fr/blog/blogging-with-org-mode.html"&gt;http://www.nicolas-petton.fr/blog/blogging-with-org-mode.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://stevenbagley.net/blog/blog-with-emacs-org-mode.html"&gt;http://stevenbagley.net/blog/blog-with-emacs-org-mode.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://kerunix.com/blog-using-orgmode-and-pelican.html"&gt;http://kerunix.com/blog-using-orgmode-and-pelican.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://steckerhalter.co.vu/posts/blogging-with-org-mode.html"&gt;http://steckerhalter.co.vu/posts/blogging-with-org-mode.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://justinlilly.com/emacs/orgmode_static_site_generator.html"&gt;http://justinlilly.com/emacs/orgmode_static_site_generator.html&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
