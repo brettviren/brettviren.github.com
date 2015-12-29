@@ -1,5 +1,206 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>They Call Me Brett</title><link href="http://brettviren.github.io/" rel="alternate"></link><link href="http://brettviren.github.io/feeds/all.atom.xml" rel="self"></link><id>http://brettviren.github.io/</id><updated>2015-08-23T00:00:00-04:00</updated><entry><title>ROOT Notebook with Org</title><link href="http://brettviren.github.io/root-org-notebook" rel="alternate"></link><updated>2015-08-23T00:00:00-04:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-12-28:root-org-notebook</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>They Call Me Brett</title><link href="http://brettviren.github.io/" rel="alternate"></link><link href="http://brettviren.github.io/feeds/all.atom.xml" rel="self"></link><id>http://brettviren.github.io/</id><updated>2015-12-28T00:00:00-05:00</updated><entry><title></title><link href="http://brettviren.github.io/foo" rel="alternate"></link><updated>2015-12-28T00:00:00-05:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-12-28:foo</id><summary type="html">
+&lt;div class="outline-2" id="outline-container-orgheadline3"&gt;
+&lt;h2 id="orgheadline3"&gt;&lt;span class="section-number-2"&gt;1&lt;/span&gt; A real heading&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-1"&gt;
+&lt;pre class="example"&gt;
+just some text
+for a verbatim
+example
+&lt;/pre&gt;
+&lt;p&gt;
+#+BEGIN&lt;sub&gt;EXAMPLE&lt;/sub&gt;
+some more text and
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="outline-4" id="outline-container-orgheadline1"&gt;
+&lt;h4 id="orgheadline1"&gt;&lt;span class="section-number-4"&gt;1.0.1&lt;/span&gt; this gets interpreted as a heading&lt;/h4&gt;
+&lt;div class="outline-text-4" id="text-1-0-1"&gt;
+&lt;p&gt;
+which it shouldn't
+#+END&lt;sub&gt;EXAMPLE&lt;/sub&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="outline-3" id="outline-container-orgheadline2"&gt;
+&lt;h3 id="orgheadline2"&gt;&lt;span class="section-number-3"&gt;1.1&lt;/span&gt; A tagged heading   &lt;span class="tag"&gt;&lt;span class="sometag"&gt;sometag&lt;/span&gt; &lt;span class="someothertag"&gt;someothertag&lt;/span&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-1-1"&gt;
+&lt;p&gt;
+blah blah
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="outline-2" id="outline-container-orgheadline4"&gt;
+&lt;h2 id="orgheadline4"&gt;&lt;span class="section-number-2"&gt;2&lt;/span&gt; This is still needing work   &lt;span class="tag"&gt;&lt;span class="todo"&gt;todo&lt;/span&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-2"&gt;
+&lt;p&gt;
+You shouldn't see me.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</summary></entry><entry><title></title><link href="http://brettviren.github.io/pelican-themes" rel="alternate"></link><updated>2015-12-28T00:00:00-05:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-12-28:pelican-themes</id><summary type="html">
+&lt;div class="outline-2" id="outline-container-orgheadline1"&gt;
+&lt;h2 id="orgheadline1"&gt;&lt;span class="section-number-2"&gt;1&lt;/span&gt; Pelican Themes&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-1"&gt;
+&lt;p&gt;
+The desired themes should satisfy these criteria
+&lt;/p&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;looks "good", if it fails this it gets a zero&lt;/li&gt;
+&lt;li&gt;good difference between code and text, distinct but not jarring&lt;/li&gt;
+&lt;li&gt;indices made up of "teasers" of articles, (this can probably be easily tweaked)&lt;/li&gt;
+&lt;li&gt;large images should not be cut out (see GraphViz diagram in "desk" for example)&lt;/li&gt;
+&lt;li&gt;prominently displays list of categories links&lt;/li&gt;
+&lt;li&gt;prominently displays list of archives link&lt;/li&gt;
+&lt;li&gt;prominently displays list of tags link&lt;/li&gt;
+&lt;li&gt;must wrap long code lines&lt;/li&gt;
+&lt;li&gt;must gracefully scale&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Testing
+&lt;/p&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;check for screen shots in theme dir.  They are not often up-to-date at all, but if horrible, then pass.&lt;/li&gt;
+&lt;li&gt;generate with &lt;code&gt;rm -rf output/*; pelican content -t ~/org-pub/pelican/pelican-themes/THEME&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;reload &lt;a href="http://127.0.0.1:8000/"&gt;http://127.0.0.1:8000/&lt;/a&gt;.  Must hit reload to get all CSS refreshed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Selected:
+&lt;/p&gt;
+&lt;dl class="org-dl"&gt;
+&lt;dt&gt;elegant&lt;/dt&gt;&lt;dd&gt;Title-only indices, interesting category browser (super-script number counts the entries, kind of weird), drop down menu.  good but maybe too cutsie, tag searching, general search input but it is broken (no search.html).  Scaling to mobile.  dump scaling on far zoom out&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;
+Top ranked
+&lt;/p&gt;
+&lt;dl class="org-dl"&gt;
+&lt;dt&gt;gum&lt;/dt&gt;&lt;dd&gt;good side bar (pages, categories, tags), teaser indices, handles long code lines, nav bar, tags&lt;/dd&gt;
+&lt;dt&gt;pelipress&lt;/dt&gt;&lt;dd&gt;good nav, good scaling, teaser indices, scrolling code, collapsible sidebar, no home link, needs translation&lt;/dd&gt;
+&lt;dt&gt;fresh&lt;/dt&gt;&lt;dd&gt;good layout, style, scale.  good nav&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;
+Second place
+&lt;/p&gt;
+&lt;dl class="org-dl"&gt;
+&lt;dt&gt;blueidea&lt;/dt&gt;&lt;dd&gt;(3) most recent article followed by other articles with teasers. top category bar&lt;/dd&gt;
+&lt;dt&gt;bootstrap&lt;/dt&gt;&lt;dd&gt;(3) teaser-based main, sidebar links, tags and categories easy access.  visual separation between teasers could use some kind of divider.&lt;/dd&gt;
+&lt;dt&gt;bootstrap2&lt;/dt&gt;&lt;dd&gt;(3) similar, a little more clear layout&lt;/dd&gt;
+&lt;dt&gt;cebong&lt;/dt&gt;&lt;dd&gt;(3) looks very nice, main+teasers index, looks like LaTeX, cuts big images&lt;/dd&gt;
+&lt;dt&gt;Just-Read&lt;/dt&gt;&lt;dd&gt;(3) good, single teaser followed by title-only index, no category listing&lt;/dd&gt;
+&lt;dt&gt;lannisport&lt;/dt&gt;&lt;dd&gt;(3) overlayed side bar, full article index, "paper" background&lt;/dd&gt;
+&lt;dt&gt;pelican-sober&lt;/dt&gt;&lt;dd&gt;(3) looks good, scales good, lacks some nav, full-article indices&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;
+Questions:
+&lt;/p&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;how to control the teaser blurb?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</summary></entry><entry><title></title><link href="http://brettviren.github.io/pelican-themes-also-ran" rel="alternate"></link><updated>2015-12-28T00:00:00-05:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-12-28:pelican-themes-also-ran</id><summary type="html">&lt;dl class="org-dl"&gt;
+&lt;dt&gt;aboutwilson&lt;/dt&gt;&lt;dd&gt;(2) simple, nice looking, teaser followed by category and tags list, navigation footer.&lt;/dd&gt;
+
+&lt;dt&gt;notmyidea&lt;/dt&gt;&lt;dd&gt;(0) default, nice looking, shows entire article on main index, gives categories in a header bar.&lt;/dd&gt;
+
+&lt;dt&gt;alchemy&lt;/dt&gt;&lt;dd&gt;(2) nice looking, simple style, shows heads of 5 articles on main index, no category bar.&lt;/dd&gt;
+
+&lt;dt&gt;backdrop&lt;/dt&gt;&lt;dd&gt;(0) fails &lt;code&gt;CRITICAL: UndefinedError: 'articles_paginator' is undefined&lt;/code&gt;&lt;/dd&gt;
+
+&lt;dt&gt;basic&lt;/dt&gt;&lt;dd&gt;(1) looks okay, content all on LHS of screen, teaser, no categories/tags&lt;/dd&gt;
+
+&lt;dt&gt;bluegrasshopper&lt;/dt&gt;&lt;dd&gt;(1) thin strip of content, no yeaser, highly styled, bad font scaling&lt;/dd&gt;
+
+&lt;dt&gt;blue-penguine&lt;/dt&gt;&lt;dd&gt;(2) not blue, clean, white, full articles on main page, link to "Archive", no category bar, no teasers.&lt;/dd&gt;
+
+&lt;dt&gt;bold&lt;/dt&gt;&lt;dd&gt;(0) fails &lt;code&gt;CRITICAL: TypeError: expected string or buffer&lt;/code&gt;&lt;/dd&gt;
+
+&lt;dt&gt;bootlex&lt;/dt&gt;&lt;dd&gt;(1) looks nice, teasers on main page, links in RHS sidebar, tags but no categories.  Would needs translating to en and some fine-tuning of text (eg, removal of "Blog" title).&lt;/dd&gt;
+
+&lt;dt&gt;brownstone&lt;/dt&gt;&lt;dd&gt;(2) main+teaser layout, nice but too stylish for me&lt;/dd&gt;
+
+&lt;dt&gt;BT3-Flat&lt;/dt&gt;&lt;dd&gt;(0) picture-scroll-reveal style.  Looks like a damn startup company page.&lt;/dd&gt;
+
+&lt;dt&gt;buildtexts&lt;/dt&gt;&lt;dd&gt;(2) last+teaser layout&lt;/dd&gt;
+
+&lt;dt&gt;burrito&lt;/dt&gt;&lt;dd&gt;(0) failed =CRITICAL: TemplateSyntaxError: Encountered unknown tag 'assets'=&lt;/dd&gt;
+&lt;/dl&gt;
+
+
+&lt;dl class="org-dl"&gt;
+&lt;dt&gt;chunk&lt;/dt&gt;&lt;dd&gt;(2) lots of unused space.  no distinction between links and categories&lt;/dd&gt;
+
+&lt;dt&gt;croswsfoot&lt;/dt&gt;&lt;dd&gt;(2) unused space, but zoomable, teasers, images okay&lt;/dd&gt;
+
+&lt;dt&gt;foundation-default-colours&lt;/dt&gt;&lt;dd&gt;(2) looks good, teaser indices, no archive, side bar&lt;/dd&gt;
+
+&lt;dt&gt;franticworld&lt;/dt&gt;&lt;dd&gt;(0) too stylish&lt;/dd&gt;
+
+&lt;dt&gt;html5-dopetrope&lt;/dt&gt;&lt;dd&gt;(0)&lt;/dd&gt;
+
+&lt;dt&gt;irfan&lt;/dt&gt;&lt;dd&gt;(0) failed&lt;/dd&gt;
+
+&lt;dt&gt;iris&lt;/dt&gt;&lt;dd&gt;(1) looks nice but more for text, not great text rendering, long code lines don't wrap&lt;/dd&gt;
+
+&lt;dt&gt;jesuislibre&lt;/dt&gt;&lt;dd&gt;(0)&lt;/dd&gt;
+
+&lt;dt&gt;lazystrap&lt;/dt&gt;&lt;dd&gt;(0) failed&lt;/dd&gt;
+
+&lt;dt&gt;lightweight&lt;/dt&gt;&lt;dd&gt;(2) looks nice, no tags, teaser indices, needs translations, background needs work&lt;/dd&gt;
+
+&lt;dt&gt;lovers&lt;/dt&gt;&lt;dd&gt;(1) too bloggy, resizes dumbly&lt;/dd&gt;
+
+&lt;dt&gt;maggner-pelican&lt;/dt&gt;&lt;dd&gt;(0) fails&lt;/dd&gt;
+
+&lt;dt&gt;martin-pelican&lt;/dt&gt;&lt;dd&gt;(1) styled for mobile&lt;/dd&gt;
+
+&lt;dt&gt;martyalchin&lt;/dt&gt;&lt;dd&gt;(1) somewhat broken, looks nice, not much navigation&lt;/dd&gt;
+
+&lt;dt&gt;mg&lt;/dt&gt;&lt;dd&gt;(2) okay, looks like some MicroSoft-world blog, fonts are hard on the eyes&lt;/dd&gt;
+
+&lt;dt&gt;mnmlist&lt;/dt&gt;&lt;dd&gt;(1) too much so&lt;/dd&gt;
+
+&lt;dt&gt;monospace&lt;/dt&gt;&lt;dd&gt;(2) is what it claims to be, not enough differentiation between text and code, bad placements of nav&lt;/dd&gt;
+
+&lt;dt&gt;neat&lt;/dt&gt;&lt;dd&gt;(1) no styling&lt;/dd&gt;
+
+&lt;dt&gt;nest&lt;/dt&gt;&lt;dd&gt;(1) okay, gigantic header, but no nav&lt;/dd&gt;
+
+&lt;dt&gt;new-bootstrap&lt;/dt&gt;&lt;dd&gt;(2) three column index with teasers, bad scaling&lt;/dd&gt;
+
+&lt;dt&gt;nikhil-theme&lt;/dt&gt;&lt;dd&gt;(2) date-teaser columns for index, no archive/category nav, broken tag/category links&lt;/dd&gt;
+
+&lt;dt&gt;niu-x2&lt;/dt&gt;&lt;dd&gt;(0) failed&lt;/dd&gt;
+
+&lt;dt&gt;nmnmlist&lt;/dt&gt;&lt;dd&gt;(1) too much so, just darker&lt;/dd&gt;
+
+&lt;dt&gt;notebook&lt;/dt&gt;&lt;dd&gt;(1) chokes on pre-heading text&lt;/dd&gt;
+
+&lt;dt&gt;Nuja&lt;/dt&gt;&lt;dd&gt;(2) full-article indices, wasted space&lt;/dd&gt;
+
+&lt;dt&gt;pelican-cait&lt;/dt&gt;&lt;dd&gt;(1) wasted side space&lt;/dd&gt;
+
+&lt;dt&gt;pelican-simplgrey&lt;/dt&gt;&lt;dd&gt;(2) bad scaling&lt;/dd&gt;
+&lt;/dl&gt;
+
+
+&lt;dl class="org-dl"&gt;
+&lt;dt&gt;plumage&lt;/dt&gt;&lt;dd&gt;(2) bad nav, good scaling, teaser indices, scrolling code,&lt;/dd&gt;
+
+&lt;dt&gt;pujanga&lt;/dt&gt;&lt;dd&gt;(0) some script freaks firefox&lt;/dd&gt;
+
+&lt;dt&gt;pure&lt;/dt&gt;&lt;dd&gt;(0) wasted side space&lt;/dd&gt;
+
+&lt;dt&gt;relapse&lt;/dt&gt;&lt;dd&gt;(0) meh&lt;/dd&gt;
+
+&lt;dt&gt;Responsive-Pelican&lt;/dt&gt;&lt;dd&gt;(2) it's okay.  not sure what's "responsive" about it&lt;/dd&gt;
+
+&lt;dt&gt;voidy-bootstrap&lt;/dt&gt;&lt;dd&gt;(2) nav bad, wasted header&lt;/dd&gt;
+
+&lt;dt&gt;waterspill-en&lt;/dt&gt;&lt;dd&gt;(1) cute, but too stylish&lt;/dd&gt;
+&lt;/dl&gt;
+</summary></entry><entry><title>ROOT Notebook with Org</title><link href="http://brettviren.github.io/root-org-notebook" rel="alternate"></link><updated>2015-12-28T00:00:00-05:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-12-28:root-org-notebook</id><summary type="html">
 &lt;div class="outline-2" id="outline-container-orgheadline1"&gt;
 &lt;h2 id="orgheadline1"&gt;&lt;span class="section-number-2"&gt;1&lt;/span&gt; Introduction&lt;/h2&gt;
 &lt;div class="outline-text-2" id="text-1"&gt;
@@ -141,208 +342,7 @@ exported to both LaTeX/PDF and HTML using SVG graphics.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</summary><category term="root"></category><category term="software"></category><category term="org"></category></entry><entry><title></title><link href="http://brettviren.github.io/foo" rel="alternate"></link><updated>2015-08-23T00:00:00-04:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-08-23:foo</id><summary type="html">
-&lt;div class="outline-2" id="outline-container-orgheadline3"&gt;
-&lt;h2 id="orgheadline3"&gt;&lt;span class="section-number-2"&gt;1&lt;/span&gt; A real heading&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-1"&gt;
-&lt;pre class="example"&gt;
-just some text
-for a verbatim
-example
-&lt;/pre&gt;
-&lt;p&gt;
-#+BEGIN&lt;sub&gt;EXAMPLE&lt;/sub&gt;
-some more text and
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="outline-4" id="outline-container-orgheadline1"&gt;
-&lt;h4 id="orgheadline1"&gt;&lt;span class="section-number-4"&gt;1.0.1&lt;/span&gt; this gets interpreted as a heading&lt;/h4&gt;
-&lt;div class="outline-text-4" id="text-1-0-1"&gt;
-&lt;p&gt;
-which it shouldn't
-#+END&lt;sub&gt;EXAMPLE&lt;/sub&gt;
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="outline-3" id="outline-container-orgheadline2"&gt;
-&lt;h3 id="orgheadline2"&gt;&lt;span class="section-number-3"&gt;1.1&lt;/span&gt; A tagged heading   &lt;span class="tag"&gt;&lt;span class="sometag"&gt;sometag&lt;/span&gt; &lt;span class="someothertag"&gt;someothertag&lt;/span&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-1-1"&gt;
-&lt;p&gt;
-blah blah
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="outline-2" id="outline-container-orgheadline4"&gt;
-&lt;h2 id="orgheadline4"&gt;&lt;span class="section-number-2"&gt;2&lt;/span&gt; This is still needing work   &lt;span class="tag"&gt;&lt;span class="todo"&gt;todo&lt;/span&gt;&lt;/span&gt;&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-2"&gt;
-&lt;p&gt;
-You shouldn't see me.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</summary></entry><entry><title></title><link href="http://brettviren.github.io/pelican-themes" rel="alternate"></link><updated>2015-08-23T00:00:00-04:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-08-23:pelican-themes</id><summary type="html">
-&lt;div class="outline-2" id="outline-container-orgheadline1"&gt;
-&lt;h2 id="orgheadline1"&gt;&lt;span class="section-number-2"&gt;1&lt;/span&gt; Pelican Themes&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-1"&gt;
-&lt;p&gt;
-The desired themes should satisfy these criteria
-&lt;/p&gt;
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;looks "good", if it fails this it gets a zero&lt;/li&gt;
-&lt;li&gt;good difference between code and text, distinct but not jarring&lt;/li&gt;
-&lt;li&gt;indices made up of "teasers" of articles, (this can probably be easily tweaked)&lt;/li&gt;
-&lt;li&gt;large images should not be cut out (see GraphViz diagram in "desk" for example)&lt;/li&gt;
-&lt;li&gt;prominently displays list of categories links&lt;/li&gt;
-&lt;li&gt;prominently displays list of archives link&lt;/li&gt;
-&lt;li&gt;prominently displays list of tags link&lt;/li&gt;
-&lt;li&gt;must wrap long code lines&lt;/li&gt;
-&lt;li&gt;must gracefully scale&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-Testing
-&lt;/p&gt;
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;check for screen shots in theme dir.  They are not often up-to-date at all, but if horrible, then pass.&lt;/li&gt;
-&lt;li&gt;generate with &lt;code&gt;rm -rf output/*; pelican content -t ~/org-pub/pelican/pelican-themes/THEME&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;reload &lt;a href="http://127.0.0.1:8000/"&gt;http://127.0.0.1:8000/&lt;/a&gt;.  Must hit reload to get all CSS refreshed.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-Selected:
-&lt;/p&gt;
-&lt;dl class="org-dl"&gt;
-&lt;dt&gt;elegant&lt;/dt&gt;&lt;dd&gt;Title-only indices, interesting category browser (super-script number counts the entries, kind of weird), drop down menu.  good but maybe too cutsie, tag searching, general search input but it is broken (no search.html).  Scaling to mobile.  dump scaling on far zoom out&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;p&gt;
-Top ranked
-&lt;/p&gt;
-&lt;dl class="org-dl"&gt;
-&lt;dt&gt;gum&lt;/dt&gt;&lt;dd&gt;good side bar (pages, categories, tags), teaser indices, handles long code lines, nav bar, tags&lt;/dd&gt;
-&lt;dt&gt;pelipress&lt;/dt&gt;&lt;dd&gt;good nav, good scaling, teaser indices, scrolling code, collapsible sidebar, no home link, needs translation&lt;/dd&gt;
-&lt;dt&gt;fresh&lt;/dt&gt;&lt;dd&gt;good layout, style, scale.  good nav&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;p&gt;
-Second place
-&lt;/p&gt;
-&lt;dl class="org-dl"&gt;
-&lt;dt&gt;blueidea&lt;/dt&gt;&lt;dd&gt;(3) most recent article followed by other articles with teasers. top category bar&lt;/dd&gt;
-&lt;dt&gt;bootstrap&lt;/dt&gt;&lt;dd&gt;(3) teaser-based main, sidebar links, tags and categories easy access.  visual separation between teasers could use some kind of divider.&lt;/dd&gt;
-&lt;dt&gt;bootstrap2&lt;/dt&gt;&lt;dd&gt;(3) similar, a little more clear layout&lt;/dd&gt;
-&lt;dt&gt;cebong&lt;/dt&gt;&lt;dd&gt;(3) looks very nice, main+teasers index, looks like LaTeX, cuts big images&lt;/dd&gt;
-&lt;dt&gt;Just-Read&lt;/dt&gt;&lt;dd&gt;(3) good, single teaser followed by title-only index, no category listing&lt;/dd&gt;
-&lt;dt&gt;lannisport&lt;/dt&gt;&lt;dd&gt;(3) overlayed side bar, full article index, "paper" background&lt;/dd&gt;
-&lt;dt&gt;pelican-sober&lt;/dt&gt;&lt;dd&gt;(3) looks good, scales good, lacks some nav, full-article indices&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;p&gt;
-Questions:
-&lt;/p&gt;
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;how to control the teaser blurb?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</summary></entry><entry><title></title><link href="http://brettviren.github.io/pelican-themes-also-ran" rel="alternate"></link><updated>2015-08-23T00:00:00-04:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-08-23:pelican-themes-also-ran</id><summary type="html">&lt;dl class="org-dl"&gt;
-&lt;dt&gt;aboutwilson&lt;/dt&gt;&lt;dd&gt;(2) simple, nice looking, teaser followed by category and tags list, navigation footer.&lt;/dd&gt;
-
-&lt;dt&gt;notmyidea&lt;/dt&gt;&lt;dd&gt;(0) default, nice looking, shows entire article on main index, gives categories in a header bar.&lt;/dd&gt;
-
-&lt;dt&gt;alchemy&lt;/dt&gt;&lt;dd&gt;(2) nice looking, simple style, shows heads of 5 articles on main index, no category bar.&lt;/dd&gt;
-
-&lt;dt&gt;backdrop&lt;/dt&gt;&lt;dd&gt;(0) fails &lt;code&gt;CRITICAL: UndefinedError: 'articles_paginator' is undefined&lt;/code&gt;&lt;/dd&gt;
-
-&lt;dt&gt;basic&lt;/dt&gt;&lt;dd&gt;(1) looks okay, content all on LHS of screen, teaser, no categories/tags&lt;/dd&gt;
-
-&lt;dt&gt;bluegrasshopper&lt;/dt&gt;&lt;dd&gt;(1) thin strip of content, no yeaser, highly styled, bad font scaling&lt;/dd&gt;
-
-&lt;dt&gt;blue-penguine&lt;/dt&gt;&lt;dd&gt;(2) not blue, clean, white, full articles on main page, link to "Archive", no category bar, no teasers.&lt;/dd&gt;
-
-&lt;dt&gt;bold&lt;/dt&gt;&lt;dd&gt;(0) fails &lt;code&gt;CRITICAL: TypeError: expected string or buffer&lt;/code&gt;&lt;/dd&gt;
-
-&lt;dt&gt;bootlex&lt;/dt&gt;&lt;dd&gt;(1) looks nice, teasers on main page, links in RHS sidebar, tags but no categories.  Would needs translating to en and some fine-tuning of text (eg, removal of "Blog" title).&lt;/dd&gt;
-
-&lt;dt&gt;brownstone&lt;/dt&gt;&lt;dd&gt;(2) main+teaser layout, nice but too stylish for me&lt;/dd&gt;
-
-&lt;dt&gt;BT3-Flat&lt;/dt&gt;&lt;dd&gt;(0) picture-scroll-reveal style.  Looks like a damn startup company page.&lt;/dd&gt;
-
-&lt;dt&gt;buildtexts&lt;/dt&gt;&lt;dd&gt;(2) last+teaser layout&lt;/dd&gt;
-
-&lt;dt&gt;burrito&lt;/dt&gt;&lt;dd&gt;(0) failed =CRITICAL: TemplateSyntaxError: Encountered unknown tag 'assets'=&lt;/dd&gt;
-&lt;/dl&gt;
-
-
-&lt;dl class="org-dl"&gt;
-&lt;dt&gt;chunk&lt;/dt&gt;&lt;dd&gt;(2) lots of unused space.  no distinction between links and categories&lt;/dd&gt;
-
-&lt;dt&gt;croswsfoot&lt;/dt&gt;&lt;dd&gt;(2) unused space, but zoomable, teasers, images okay&lt;/dd&gt;
-
-&lt;dt&gt;foundation-default-colours&lt;/dt&gt;&lt;dd&gt;(2) looks good, teaser indices, no archive, side bar&lt;/dd&gt;
-
-&lt;dt&gt;franticworld&lt;/dt&gt;&lt;dd&gt;(0) too stylish&lt;/dd&gt;
-
-&lt;dt&gt;html5-dopetrope&lt;/dt&gt;&lt;dd&gt;(0)&lt;/dd&gt;
-
-&lt;dt&gt;irfan&lt;/dt&gt;&lt;dd&gt;(0) failed&lt;/dd&gt;
-
-&lt;dt&gt;iris&lt;/dt&gt;&lt;dd&gt;(1) looks nice but more for text, not great text rendering, long code lines don't wrap&lt;/dd&gt;
-
-&lt;dt&gt;jesuislibre&lt;/dt&gt;&lt;dd&gt;(0)&lt;/dd&gt;
-
-&lt;dt&gt;lazystrap&lt;/dt&gt;&lt;dd&gt;(0) failed&lt;/dd&gt;
-
-&lt;dt&gt;lightweight&lt;/dt&gt;&lt;dd&gt;(2) looks nice, no tags, teaser indices, needs translations, background needs work&lt;/dd&gt;
-
-&lt;dt&gt;lovers&lt;/dt&gt;&lt;dd&gt;(1) too bloggy, resizes dumbly&lt;/dd&gt;
-
-&lt;dt&gt;maggner-pelican&lt;/dt&gt;&lt;dd&gt;(0) fails&lt;/dd&gt;
-
-&lt;dt&gt;martin-pelican&lt;/dt&gt;&lt;dd&gt;(1) styled for mobile&lt;/dd&gt;
-
-&lt;dt&gt;martyalchin&lt;/dt&gt;&lt;dd&gt;(1) somewhat broken, looks nice, not much navigation&lt;/dd&gt;
-
-&lt;dt&gt;mg&lt;/dt&gt;&lt;dd&gt;(2) okay, looks like some MicroSoft-world blog, fonts are hard on the eyes&lt;/dd&gt;
-
-&lt;dt&gt;mnmlist&lt;/dt&gt;&lt;dd&gt;(1) too much so&lt;/dd&gt;
-
-&lt;dt&gt;monospace&lt;/dt&gt;&lt;dd&gt;(2) is what it claims to be, not enough differentiation between text and code, bad placements of nav&lt;/dd&gt;
-
-&lt;dt&gt;neat&lt;/dt&gt;&lt;dd&gt;(1) no styling&lt;/dd&gt;
-
-&lt;dt&gt;nest&lt;/dt&gt;&lt;dd&gt;(1) okay, gigantic header, but no nav&lt;/dd&gt;
-
-&lt;dt&gt;new-bootstrap&lt;/dt&gt;&lt;dd&gt;(2) three column index with teasers, bad scaling&lt;/dd&gt;
-
-&lt;dt&gt;nikhil-theme&lt;/dt&gt;&lt;dd&gt;(2) date-teaser columns for index, no archive/category nav, broken tag/category links&lt;/dd&gt;
-
-&lt;dt&gt;niu-x2&lt;/dt&gt;&lt;dd&gt;(0) failed&lt;/dd&gt;
-
-&lt;dt&gt;nmnmlist&lt;/dt&gt;&lt;dd&gt;(1) too much so, just darker&lt;/dd&gt;
-
-&lt;dt&gt;notebook&lt;/dt&gt;&lt;dd&gt;(1) chokes on pre-heading text&lt;/dd&gt;
-
-&lt;dt&gt;Nuja&lt;/dt&gt;&lt;dd&gt;(2) full-article indices, wasted space&lt;/dd&gt;
-
-&lt;dt&gt;pelican-cait&lt;/dt&gt;&lt;dd&gt;(1) wasted side space&lt;/dd&gt;
-
-&lt;dt&gt;pelican-simplgrey&lt;/dt&gt;&lt;dd&gt;(2) bad scaling&lt;/dd&gt;
-&lt;/dl&gt;
-
-
-&lt;dl class="org-dl"&gt;
-&lt;dt&gt;plumage&lt;/dt&gt;&lt;dd&gt;(2) bad nav, good scaling, teaser indices, scrolling code,&lt;/dd&gt;
-
-&lt;dt&gt;pujanga&lt;/dt&gt;&lt;dd&gt;(0) some script freaks firefox&lt;/dd&gt;
-
-&lt;dt&gt;pure&lt;/dt&gt;&lt;dd&gt;(0) wasted side space&lt;/dd&gt;
-
-&lt;dt&gt;relapse&lt;/dt&gt;&lt;dd&gt;(0) meh&lt;/dd&gt;
-
-&lt;dt&gt;Responsive-Pelican&lt;/dt&gt;&lt;dd&gt;(2) it's okay.  not sure what's "responsive" about it&lt;/dd&gt;
-
-&lt;dt&gt;voidy-bootstrap&lt;/dt&gt;&lt;dd&gt;(2) nav bad, wasted header&lt;/dd&gt;
-
-&lt;dt&gt;waterspill-en&lt;/dt&gt;&lt;dd&gt;(1) cute, but too stylish&lt;/dd&gt;
-&lt;/dl&gt;
-</summary></entry><entry><title></title><link href="http://brettviren.github.io/root5" rel="alternate"></link><updated>2015-08-23T00:00:00-04:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-08-23:root5</id><summary type="html">
+</summary><category term="root"></category><category term="software"></category><category term="org"></category></entry><entry><title></title><link href="http://brettviren.github.io/root5" rel="alternate"></link><updated>2015-12-28T00:00:00-05:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-12-28:root5</id><summary type="html">
 &lt;div class="outline-2" id="outline-container-orgheadline4"&gt;
 &lt;h2 id="orgheadline4"&gt;&lt;span class="section-number-2"&gt;1&lt;/span&gt; User Install&lt;/h2&gt;
 &lt;div class="outline-text-2" id="text-1"&gt;
@@ -501,7 +501,7 @@ $ buildPhase
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</summary></entry><entry><title>Building ROOT 6 for Nix</title><link href="http://brettviren.github.io/root6" rel="alternate"></link><updated>2015-08-23T00:00:00-04:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-08-23:root6</id><summary type="html">
+</summary></entry><entry><title>Building ROOT 6 for Nix</title><link href="http://brettviren.github.io/root6" rel="alternate"></link><updated>2015-12-28T00:00:00-05:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-12-28:root6</id><summary type="html">
 &lt;div class="outline-2" id="outline-container-orgheadline4"&gt;
 &lt;h2 id="orgheadline4"&gt;&lt;span class="section-number-2"&gt;1&lt;/span&gt; Introduction and Overview&lt;/h2&gt;
 &lt;div class="outline-text-2" id="text-1"&gt;
@@ -774,7 +774,7 @@ The patch which is part of the ROOT 5  Nix package is still needed.
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</summary></entry><entry><title>HEP/Nix Packages.</title><link href="http://brettviren.github.io/nix" rel="alternate"></link><updated>2015-08-23T00:00:00-04:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-08-15:nix</id><summary type="html">
+</summary></entry><entry><title>HEP/Nix Packages.</title><link href="http://brettviren.github.io/nix" rel="alternate"></link><updated>2015-12-28T00:00:00-05:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-08-15:nix</id><summary type="html">
 &lt;div class="outline-2" id="outline-container-orgheadline4"&gt;
 &lt;h2 id="orgheadline4"&gt;&lt;span class="section-number-2"&gt;1&lt;/span&gt; Nix in a Nut Shell&lt;/h2&gt;
 &lt;div class="outline-text-2" id="text-1"&gt;
@@ -948,7 +948,7 @@ The term "relocatable" is used in some systems like UPS.  There, it takes a weak
 Someone has already packaged a recent ROOT 5 for Nix but its build happens to be failing at the time of writing.
 &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</summary><category term="packaging"></category><category term="unix"></category><category term="hsf"></category></entry><entry><title>Using PGP With GnuPG</title><link href="http://brettviren.github.io/gnupg" rel="alternate"></link><updated>2015-08-23T00:00:00-04:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-07-07:gnupg</id><summary type="html">
+&lt;/div&gt;</summary><category term="packaging"></category><category term="unix"></category><category term="hsf"></category></entry><entry><title>Using PGP With GnuPG</title><link href="http://brettviren.github.io/gnupg" rel="alternate"></link><updated>2015-12-28T00:00:00-05:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-07-07:gnupg</id><summary type="html">
 &lt;p&gt;
 In 2005 I made a &lt;a href="http://pgp.mit.edu/pks/lookup?op=vindex&amp;amp;search=0x122C47D99D1D282C"&gt;PGP Key&lt;/a&gt;.  This note documents various aspects of interacting with my key.
 &lt;/p&gt;
@@ -1160,7 +1160,7 @@ Key is valid for? (0) 0
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</summary><category term="crypto"></category><category term="gpg"></category><category term="notes"></category><category term="cmdline"></category></entry><entry><title>Scope out my new i7 PC</title><link href="http://brettviren.github.io/haiku-i7-system" rel="alternate"></link><updated>2015-08-23T00:00:00-04:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2014-06-28:haiku-i7-system</id><summary type="html">
+</summary><category term="crypto"></category><category term="gpg"></category><category term="notes"></category><category term="cmdline"></category></entry><entry><title>Scope out my new i7 PC</title><link href="http://brettviren.github.io/haiku-i7-system" rel="alternate"></link><updated>2015-12-28T00:00:00-05:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2014-06-28:haiku-i7-system</id><summary type="html">
 &lt;p&gt;
 After a long time using ever aging computers at home I built a new workstation.
 &lt;/p&gt;
@@ -1307,7 +1307,7 @@ sys	0m1.592s
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</summary></entry><entry><title>This site.</title><link href="http://brettviren.github.io/this" rel="alternate"></link><updated>2015-08-23T00:00:00-04:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2014-03-02:this</id><summary type="html">
+</summary></entry><entry><title>This site.</title><link href="http://brettviren.github.io/this" rel="alternate"></link><updated>2015-12-28T00:00:00-05:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2014-03-02:this</id><summary type="html">
 &lt;p&gt;
 This web site has evolved over time.  It is currently written with
 Emacs &lt;a href="//orgmode.org"&gt;org-mode&lt;/a&gt;.  It's Org source is exported with &lt;a href="https://github.com/brettviren/orgonpy"&gt;OrgOnPy&lt;/a&gt; and &lt;a href="http://blog.getpelican.com/"&gt;Pelican&lt;/a&gt;.

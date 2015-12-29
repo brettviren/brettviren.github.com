@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>They Call Me Brett</title><link href="http://brettviren.github.io/" rel="alternate"></link><link href="http://brettviren.github.io/feeds/software.atom.xml" rel="self"></link><id>http://brettviren.github.io/</id><updated>2015-08-23T00:00:00-04:00</updated><entry><title>ROOT Notebook with Org</title><link href="http://brettviren.github.io/root-org-notebook" rel="alternate"></link><updated>2015-08-23T00:00:00-04:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-12-28:root-org-notebook</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>They Call Me Brett</title><link href="http://brettviren.github.io/" rel="alternate"></link><link href="http://brettviren.github.io/feeds/software.atom.xml" rel="self"></link><id>http://brettviren.github.io/</id><updated>2015-12-28T00:00:00-05:00</updated><entry><title>ROOT Notebook with Org</title><link href="http://brettviren.github.io/root-org-notebook" rel="alternate"></link><updated>2015-12-28T00:00:00-05:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-12-28:root-org-notebook</id><summary type="html">
 &lt;div class="outline-2" id="outline-container-orgheadline1"&gt;
 &lt;h2 id="orgheadline1"&gt;&lt;span class="section-number-2"&gt;1&lt;/span&gt; Introduction&lt;/h2&gt;
 &lt;div class="outline-text-2" id="text-1"&gt;
@@ -141,7 +141,7 @@ exported to both LaTeX/PDF and HTML using SVG graphics.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</summary><category term="root"></category><category term="software"></category><category term="org"></category></entry><entry><title>HEP/Nix Packages.</title><link href="http://brettviren.github.io/nix" rel="alternate"></link><updated>2015-08-23T00:00:00-04:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-08-15:nix</id><summary type="html">
+</summary><category term="root"></category><category term="software"></category><category term="org"></category></entry><entry><title>HEP/Nix Packages.</title><link href="http://brettviren.github.io/nix" rel="alternate"></link><updated>2015-12-28T00:00:00-05:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-08-15:nix</id><summary type="html">
 &lt;div class="outline-2" id="outline-container-orgheadline4"&gt;
 &lt;h2 id="orgheadline4"&gt;&lt;span class="section-number-2"&gt;1&lt;/span&gt; Nix in a Nut Shell&lt;/h2&gt;
 &lt;div class="outline-text-2" id="text-1"&gt;

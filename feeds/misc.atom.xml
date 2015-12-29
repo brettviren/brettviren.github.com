@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>They Call Me Brett</title><link href="http://brettviren.github.io/" rel="alternate"></link><link href="http://brettviren.github.io/feeds/misc.atom.xml" rel="self"></link><id>http://brettviren.github.io/</id><updated>2015-08-23T00:00:00-04:00</updated><entry><title></title><link href="http://brettviren.github.io/foo" rel="alternate"></link><updated>2015-08-23T00:00:00-04:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-08-23:foo</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>They Call Me Brett</title><link href="http://brettviren.github.io/" rel="alternate"></link><link href="http://brettviren.github.io/feeds/misc.atom.xml" rel="self"></link><id>http://brettviren.github.io/</id><updated>2015-12-28T00:00:00-05:00</updated><entry><title></title><link href="http://brettviren.github.io/foo" rel="alternate"></link><updated>2015-12-28T00:00:00-05:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-12-28:foo</id><summary type="html">
 &lt;div class="outline-2" id="outline-container-orgheadline3"&gt;
 &lt;h2 id="orgheadline3"&gt;&lt;span class="section-number-2"&gt;1&lt;/span&gt; A real heading&lt;/h2&gt;
 &lt;div class="outline-text-2" id="text-1"&gt;
@@ -39,7 +39,7 @@ You shouldn't see me.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</summary></entry><entry><title></title><link href="http://brettviren.github.io/pelican-themes" rel="alternate"></link><updated>2015-08-23T00:00:00-04:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-08-23:pelican-themes</id><summary type="html">
+</summary></entry><entry><title></title><link href="http://brettviren.github.io/pelican-themes" rel="alternate"></link><updated>2015-12-28T00:00:00-05:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-12-28:pelican-themes</id><summary type="html">
 &lt;div class="outline-2" id="outline-container-orgheadline1"&gt;
 &lt;h2 id="orgheadline1"&gt;&lt;span class="section-number-2"&gt;1&lt;/span&gt; Pelican Themes&lt;/h2&gt;
 &lt;div class="outline-text-2" id="text-1"&gt;
@@ -99,7 +99,7 @@ Questions:
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</summary></entry><entry><title></title><link href="http://brettviren.github.io/pelican-themes-also-ran" rel="alternate"></link><updated>2015-08-23T00:00:00-04:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-08-23:pelican-themes-also-ran</id><summary type="html">&lt;dl class="org-dl"&gt;
+</summary></entry><entry><title></title><link href="http://brettviren.github.io/pelican-themes-also-ran" rel="alternate"></link><updated>2015-12-28T00:00:00-05:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-12-28:pelican-themes-also-ran</id><summary type="html">&lt;dl class="org-dl"&gt;
 &lt;dt&gt;aboutwilson&lt;/dt&gt;&lt;dd&gt;(2) simple, nice looking, teaser followed by category and tags list, navigation footer.&lt;/dd&gt;
 
 &lt;dt&gt;notmyidea&lt;/dt&gt;&lt;dd&gt;(0) default, nice looking, shows entire article on main index, gives categories in a header bar.&lt;/dd&gt;
@@ -200,7 +200,7 @@ Questions:
 
 &lt;dt&gt;waterspill-en&lt;/dt&gt;&lt;dd&gt;(1) cute, but too stylish&lt;/dd&gt;
 &lt;/dl&gt;
-</summary></entry><entry><title></title><link href="http://brettviren.github.io/root5" rel="alternate"></link><updated>2015-08-23T00:00:00-04:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-08-23:root5</id><summary type="html">
+</summary></entry><entry><title></title><link href="http://brettviren.github.io/root5" rel="alternate"></link><updated>2015-12-28T00:00:00-05:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-12-28:root5</id><summary type="html">
 &lt;div class="outline-2" id="outline-container-orgheadline4"&gt;
 &lt;h2 id="orgheadline4"&gt;&lt;span class="section-number-2"&gt;1&lt;/span&gt; User Install&lt;/h2&gt;
 &lt;div class="outline-text-2" id="text-1"&gt;
@@ -359,7 +359,7 @@ $ buildPhase
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</summary></entry><entry><title>Building ROOT 6 for Nix</title><link href="http://brettviren.github.io/root6" rel="alternate"></link><updated>2015-08-23T00:00:00-04:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-08-23:root6</id><summary type="html">
+</summary></entry><entry><title>Building ROOT 6 for Nix</title><link href="http://brettviren.github.io/root6" rel="alternate"></link><updated>2015-12-28T00:00:00-05:00</updated><author><name>Brett Viren</name></author><id>tag:brettviren.github.io,2015-12-28:root6</id><summary type="html">
 &lt;div class="outline-2" id="outline-container-orgheadline4"&gt;
 &lt;h2 id="orgheadline4"&gt;&lt;span class="section-number-2"&gt;1&lt;/span&gt; Introduction and Overview&lt;/h2&gt;
 &lt;div class="outline-text-2" id="text-1"&gt;
